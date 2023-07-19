@@ -9,7 +9,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      DOCKER_IMAGE_NAME: $GITHUB_REPOSITORY_OWNER/ozoblockly-translations
+      DOCKER_IMAGE_NAME: ${{ env.GITHUB_REPOSITORY_OWNER }}/ozoblockly-translations
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
