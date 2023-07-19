@@ -9,7 +9,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      DOCKER_IMAGE_NAME: ${{ env.GITHUB_REPOSITORY_OWNER }}/ozoblockly-translations
+      DOCKER_IMAGE_NAME: ${{ github.REPOSITORY_OWNER }}/ozoblockly-translations
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
@@ -19,4 +19,4 @@ jobs:
     - name: Create Docker image
       run: dotnet publish --verbosity normal /p:ContainerImageName=$DOCKER_IMAGE_NAME /p:ContainerImageTags='"$GITHUB_REF_NAME;latest"'
     - name: Push Docker image
-      run: docker push --all-tags ghcr.io/$$DOCKER_IMAGE_NAME
+      run: docker push --all-tags ghcr.io/$DOCKER_IMAGE_NAME
