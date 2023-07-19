@@ -26,7 +26,7 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
     - name: Push Docker image
       env:
-        DOCKER_IMAGE_FULL_NAME: ghcr.io/${{ github.REPOSITORY_OWNER }}/${{ env.DOCKER_IMAGE_BASE_NAME }}
+        DOCKER_IMAGE_FULL_NAME: ghcr.io/${{ github.GITHUB_REPOSITORY }}
       run: |
         docker image tag $DOCKER_IMAGE_BASE_NAME $DOCKER_IMAGE_FULL_NAME:$GITHUB_REF_NAME
         docker image tag $DOCKER_IMAGE_BASE_NAME $DOCKER_IMAGE_FULL_NAME:latest
