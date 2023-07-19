@@ -24,4 +24,5 @@ jobs:
       run: |
         docker image tag $DOCKER_IMAGE_BASE_NAME $DOCKER_IMAGE_FULL_NAME:$GITHUB_REF_NAME
         docker image tag $DOCKER_IMAGE_BASE_NAME $DOCKER_IMAGE_FULL_NAME:latest
+        echo '$GITHUB_TOKEN' | docker login ghcr.io -u $GITHUB_REPOSITORY_OWNER --password-stdin
         docker push --all-tags $DOCKER_IMAGE_FULL_NAME
