@@ -17,4 +17,4 @@ jobs:
     - name: Create Docker image
       run: dotnet publish --verbosity normal /p:ContainerImageTags='"$GITHUB_REF_NAME;latest"'
     - name: Push Docker image
-      run: docker push --all-tags ghcr.io/$GITHUB_REPOSITORY
+      run: docker push --all-tags ghcr.io/$GITHUB_REPOSITORY_OWNER/ozoblockly-translations
