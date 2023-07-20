@@ -37,7 +37,7 @@ jobs:
       with:
         azureCredentials: ${{ secrets.AZURE_CREDENTIALS }}
         imageToDeploy: $DOCKER_IMAGE_FULL_NAME
-        resourceGroup: rg-ozoblockly-editor
-        containerAppEnvironment: cae-ozoblockly-editor
-        containerAppName: ca-ozoblockly-editor
+        resourceGroup: rg-ozoblockly-translations
+        containerAppEnvironment: cae-ozoblockly-translations
+        containerAppName: ca-ozoblockly-translations
 
