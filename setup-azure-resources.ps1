@@ -7,4 +7,4 @@ $ServicePrincipal = az ad sp create-for-rbac `
     --sdk-auth
     | ConvertFrom-Json
 $RepositoryName = gh repo view --json nameWithOwner --jq .nameWithOwner
-gh secret set AZURE_CREDENTIALS -a actions -b $ServicePrincipal.clientSecret --repo $RepositoryName
+gh secret set AZURE_CREDENTIALS -a actions -b (ConvertTo-Json $ServicePrincipal) --repo $RepositoryName
