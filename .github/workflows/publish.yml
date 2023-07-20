@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DOCKER_IMAGE_BASE_NAME: ozoblockly-translations
+      DOCKER_IMAGE_FULL_NAME: ghcr.io/${{ github.REPOSITORY }}
     permissions:
       packages: write
     steps:
@@ -27,9 +28,16 @@ jobs:
         username: $GITHUB_REPOSITORY_OWNER
         password: ${{ secrets.GITHUB_TOKEN }}
     - name: Push Docker image
-      env:
-        DOCKER_IMAGE_FULL_NAME: ghcr.io/${{ github.REPOSITORY }}
       run: |
         docker image tag $DOCKER_IMAGE_BASE_NAME $DOCKER_IMAGE_FULL_NAME:$GITHUB_REF_NAME
         docker image tag $DOCKER_IMAGE_BASE_NAME $DOCKER_IMAGE_FULL_NAME:latest
         docker push --all-tags $DOCKER_IMAGE_FULL_NAME
+    - name: Update Azure Container App
+      uses: azure/container-apps-deploy-action@v1
+      with:
+        azureCredentials: ${{ secrets.AZURE_CREDENTIALS }}
+        imageToDeploy: $DOCKER_IMAGE_FULL_NAME
+        resourceGroup: rg-ozoblockly-editor
+        containerAppEnvironment: cae-ozoblockly-editor
+        containerAppName: ca-ozoblockly-editor
+
