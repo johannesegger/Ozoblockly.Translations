@@ -434,8 +434,8 @@
 (?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_LIGHTS=")lights(?=") ==> 
 (?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_TITLE=")set light color(?=") ==> 
 (?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_TOOLTIP=")set any LED(?=") ==> 
-(?<=OZOBOT_EVO_LIGHT_EFFECTS_SET_FRONT_LEDS_OFF_TITLE=")turn front lights off(?=") ==> 
-(?<=OZOBOT_EVO_LIGHT_EFFECTS_SET_LIGHT_COLOR_TITLE=")set light color(?=") ==> 
+(?<=OZOBOT_EVO_LIGHT_EFFECTS_SET_FRONT_LEDS_OFF_TITLE=")turn front lights off(?=") ==> Schalte vordere Lichter aus
+(?<=OZOBOT_EVO_LIGHT_EFFECTS_SET_LIGHT_COLOR_TITLE=")set light color(?=") ==> Ändere Lichtfarben
 (?<=OZOBOT_EVO_ONE_OF_OR=")or(?=") ==> 
 (?<=OZOBOT_EVO_ONE_OF_TITLE=")one of(?=") ==> 
 (?<=OZOBOT_EVO_ONE_OF_TOOLTIP_MULTI=")randomly do one of statemenets(?=") ==> 
@@ -443,14 +443,14 @@
 (?<=OZOBOT_EVO_READ_SURFACE_PROXIMITY_SENSOR_TITLE=")read bottom surface proximity sensor(?=") ==> 
 (?<=OZOBOT_EVO_ROBOTS_COLOR_BLACK=")black(?=") ==> 
 (?<=OZOBOT_EVO_ROBOTS_COLOR_WHITE=")white(?=") ==> 
-(?<=OZOBOT_EVO_SENSORS_PROXIMITY_OBJECT_BEHIND_TITLE=")object behind(?=") ==> 
-(?<=OZOBOT_EVO_SENSORS_PROXIMITY_OBJECT_INFRONT_TITLE=")object in front(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_PROXIMITY_OBJECT_BEHIND_TITLE=")object behind(?=") ==> Objekt dahinter
+(?<=OZOBOT_EVO_SENSORS_PROXIMITY_OBJECT_INFRONT_TITLE=")object in front(?=") ==> Objekt davor
 (?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_LEFT_FRONT=")left front(?=") ==> 
 (?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_LEFT_REAR=")left rear(?=") ==> 
 (?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_RIGHT_FRONT=")right front(?=") ==> 
 (?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_RIGHT_REAR=")right rear(?=") ==> 
 (?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_TITLE=")read proximity sensor(?=") ==> 
-(?<=OZOBOT_EVO_SET_FRONT_LEDS_RANDOM_COLOUR_TITLE=")set front lights color randomly(?=") ==> 
+(?<=OZOBOT_EVO_SET_FRONT_LEDS_RANDOM_COLOUR_TITLE=")set front lights color randomly(?=") ==> Ändere vordere Lichter zufällig
 (?<=OZOBOT_EVO_SMARTSKIN_BLACK_WIDOW=")Black Widow(?=") ==> 
 (?<=OZOBOT_EVO_SMARTSKIN_CAPTAIN_AMERICA=")Captain America(?=") ==> 
 (?<=OZOBOT_EVO_SMARTSKIN_HULK=")Hulk(?=") ==> 
@@ -866,14 +866,14 @@
 (?<=OZOBOT_LIGHT_EFFECTS_RAINBOW_TITLE=")rainbow(?=") ==> Regenbogen
 (?<=OZOBOT_LIGHT_EFFECTS_SET_LED_COLOR_TITLE=")set top light color(?=") ==> Oberes Licht ändern auf
 (?<=OZOBOT_LIGHT_EFFECTS_SET_LIGHT_COLOR_TITLE=")set top light color(?=") ==> Oberes Licht ändern auf
-(?<=OZOBOT_LIGHT_EFFECTS_SET_RANDOM_LIGHT_COLOR_TITLE=")set top light color randomly(?=") ==> 
+(?<=OZOBOT_LIGHT_EFFECTS_SET_RANDOM_LIGHT_COLOR_TITLE=")set top light color randomly(?=") ==> Ändere oberes Licht auf zufällige Farbe
 (?<=OZOBOT_LIGHT_EFFECTS_SET_WHITE_LED_TITLE=")set white LED intensity(?=") ==> 
 (?<=OZOBOT_LIGHT_EFFECTS_TRAFFIC_LIGHTS_TITLE=")traffic lights(?=") ==> Ampel
 (?<=OZOBOT_LIGHT_EFFECTS_TURN_OFF_LEDS_TITLE=")turn top light off(?=") ==> Schalte oberes Licht aus
 (?<=OZOBOT_LINE_NAVIGATION_CAN_LINE_FOLLOW_TITLE=")can line follow(?=") ==> 
 (?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_OPERATOR_BACK=")back(?=") ==> zurück
-(?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_OPERATOR_STRAIGHT=")straight(?=") ==> 
-(?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_TITLE=")pick direction(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_OPERATOR_STRAIGHT=")straight(?=") ==> geradeaus
+(?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_TITLE=")pick direction(?=") ==> Fahre bei der nächsten Kreuzung
 (?<=OZOBOT_LINE_NAVIGATION_GET_LAST_INTERSECTION_DECISION_TITLE=")get last intersection decision (deprecated)(?=") ==> 
 (?<=OZOBOT_LINE_NAVIGATION_GET_LAST_INTERSECTION_TYPE_TITLE=")get last intersection type(?=") ==> 
 (?<=OZOBOT_LINE_NAVIGATION_GET_LINE_FOLLOWING_SPEED_TITLE=")get line-following speed(?=") ==> 
@@ -882,11 +882,11 @@
 (?<=OZOBOT_LINE_NAVIGATION_GET_LINE_SENSORS_TITLE=")get line sensors(?=") ==> 
 (?<=OZOBOT_LINE_NAVIGATION_GET_LINE_WIDTH_TITLE=")get line width(?=") ==> 
 (?<=OZOBOT_LINE_NAVIGATION_GET_NEXT_INTERSECTION_DECISION_TITLE=")get next intersection decision(?=") ==> 
-(?<=OZOBOT_LINE_NAVIGATION_GO_TO_NEXT_INTERSECTION_TITLE=")follow line to next intersection or line end(?=") ==> 
-(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_LINE_END=")line end(?=") ==> 
-(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_LEFT=")way left(?=") ==> 
-(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_RIGHT=")way right(?=") ==> 
-(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_STRAIGHT=")way straight(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GO_TO_NEXT_INTERSECTION_TITLE=")follow line to next intersection or line end(?=") ==> Folge der Linie bis zur nächsten Kreuzung oder zum Ende
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_LINE_END=")line end(?=") ==> Ende des Weges
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_LEFT=")way left(?=") ==> Weg links
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_RIGHT=")way right(?=") ==> Weg rechts
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_STRAIGHT=")way straight(?=") ==> Weg geradeaus
 (?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_THERE_IS_TITLE=")there is(?=") ==> 
 (?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_COLOR_TITLE=")intersection/line-end color(?=") ==> 
 (?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_DIRECTION_TITLE=")intersection / direction(?=") ==> 
@@ -915,10 +915,10 @@
 (?<=OZOBOT_LOAD_OZOBOT_EVO_OLD_FIRMWARE=")Your robot needs to be updated before attempting this action.(?=") ==> 
 (?<=OZOBOT_LOAD_OZOBOT_EVO_ROBOT_DISCONNECTED=")Evo disconnected.(?=") ==> 
 (?<=OZOBOT_LOAD_OZOBOT_EVO_UP_TO_DATE=")Robot is up to date.(?=") ==> 
-(?<=OZOBOT_LOGIC_IF_INTERSECTION_COLOR_IS_TITLE=")if intersection/line-end color is(?=") ==> 
-(?<=OZOBOT_LOGIC_IF_INTERSECTION_IF_THERE_IS_TITLE=")if there is(?=") ==> 
-(?<=OZOBOT_LOGIC_IF_SURFACE_COLOR_IF_SURFACE_COLOR_IS_TITLE=")if surface color is(?=") ==> 
-(?<=OZOBOT_LOOPS_BREAK_OUT_TITLE=")break out of loop(?=") ==> 
+(?<=OZOBOT_LOGIC_IF_INTERSECTION_COLOR_IS_TITLE=")if intersection/line-end color is(?=") ==> Bei Kreuzungsfarbe oder Farbe am Linienende
+(?<=OZOBOT_LOGIC_IF_INTERSECTION_IF_THERE_IS_TITLE=")if there is(?=") ==> Falls
+(?<=OZOBOT_LOGIC_IF_SURFACE_COLOR_IF_SURFACE_COLOR_IS_TITLE=")if surface color is(?=") ==> Bei Farbe
+(?<=OZOBOT_LOOPS_BREAK_OUT_TITLE=")break out of loop(?=") ==> Beende die Schleife
 (?<=OZOBOT_LOOPS_REPEAT_FOREVER_TITLE=")repeat forever(?=") ==> Wiederhole
 (?<=OZOBOT_MATH_BITWISE_OPERATOR=")bitwise(?=") ==> 
 (?<=OZOBOT_MATH_BITWISE_OPERATOR_SHIFT_LEFT=")shift LEFT(?=") ==> 
@@ -937,9 +937,9 @@
 (?<=OZOBOT_MOVEMENT_GAME_WIN_ANIMATION_TITLE=")game win animation(?=") ==> 
 (?<=OZOBOT_MOVEMENT_GET_INTERSECTION_COLOR_TITLE=")get intersection/line-end color(?=") ==> 
 (?<=OZOBOT_MOVEMENT_GET_SURFACE_COLOR_TITLE=")get surface color(?=") ==> 
-(?<=OZOBOT_MOVEMENT_LINE_FOLLOWING_SPEED_TITLE=")set line-following speed to(?=") ==> 
-(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_DROPDOWN_TITLE=")move forward at(?=") ==> 
-(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_DROPDOWN_UNIT=") speed until line is found, and then follow the line(?=") ==> 
+(?<=OZOBOT_MOVEMENT_LINE_FOLLOWING_SPEED_TITLE=")set line-following speed to(?=") ==> Ändere Geschwindigkeit für Linienverfolgung auf
+(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_DROPDOWN_TITLE=")move forward at(?=") ==> Fahre vorwärts mit
+(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_DROPDOWN_UNIT=") speed until line is found, and then follow the line(?=") ==> Geschwindigkeit bis zur nächsten Linie und folge ihr
 (?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_VALUE_TITLE=")move forward at speed(?=") ==> 
 (?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_VALUE_UNIT=")mm/s until line is found, and then follow the line(?=") ==> 
 (?<=OZOBOT_MOVEMENT_MOVE_OPERATOR_BACKWARD=")backward(?=") ==> rückwärts
