@@ -570,10 +570,11 @@
 (?<=OZOBOT_HTML_ADVANCED_SETTINGS_LEGEND=")Show Advanced Settings(?=") ==> 
 (?<=OZOBOT_HTML_AUTO_STACK_SIZE_LABEL=")Automatic stack size: (?=") ==> 
 (?<=OZOBOT_HTML_BACKGROUND_COLOUR_TITLE=")Background Color(?=") ==> 
-(?<=OZOBOT_HTML_BLE_LOADING_EVO_CONNECTED_TEXT=")Evo is connected(?=") ==> 
-(?<=OZOBOT_HTML_BLE_LOADING_EVO_INSTRUCTIONS_CONNECT_TEXT=")<x id='START_BOLD'/>2. Connect and click 'Pair'<x id='END_BOLD'/> in the window that opens in your browser.(?=") ==> 
-(?<=OZOBOT_HTML_BLE_LOADING_EVO_INSTRUCTIONS_POWER_TEXT=")<x id='START_BOLD'/>1. Power on Evo<x id='END_BOLD'/>(?=") ==> 
-(?<=OZOBOT_HTML_BLE_LOADING_HEADER=")Run Your Program(?=") ==> 
+(?<=>)Evo is connected(?=<) ==> Evo ist verbunden
+<x id='START_BOLD'/>2\. Connect and click 'Pair'<x id='END_BOLD'/> in the window that opens in your browser\. ==> <x id='START_BOLD'/>2. Verbinde und 'Kopple'<x id='END_BOLD'/> im Browserfenster.
+<b>2\. Connect and click \\'Pair\\'</b> in the window that opens in your browser\. ==> <b>2. Verbinde und \'Kopple\'</b> im Browserfenster.
+1\. Power on Evo ==> 1. Schalte Evo ein
+\bRun Your Program\b ==> Starte dein Programm
 (?<=OZOBOT_HTML_BLOCKS_ARRAYS_TITLE=")Arrays(?=") ==> 
 (?<=OZOBOT_HTML_BLOCKS_BUTTON_TITLE=")Button(?=") ==> 
 (?<=OZOBOT_HTML_BLOCKS_FUNCTIONS_TITLE=")Functions(?=") ==> 
@@ -767,12 +768,12 @@
 (?<=OZOBOT_HTML_LOAD_OZOBOT_BIT_NOT_CONNECTED=")Bit+ Not Connected(?=") ==> 
 (?<=OZOBOT_HTML_LOAD_OZOBOT_BIT_STOP_BUTTON=")Stop Loading(?=") ==> 
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_BUTTON=")Load Evo(?=") ==> 
-(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_CONNECT_BUTTON=")Connect(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_CONNECT_BUTTON=")Connect(?=") ==> Verbinde
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_DISCONNECT_BUTTON=")Disconnect(?=") ==> 
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_LOADING_BUTTON=")Program is loading...(?=") ==> 
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_NOT_CONNECTED=")Evo Not Connected(?=") ==> 
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_RUNNING_BUTTON=")Program is running...(?=") ==> 
-(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_RUN_BUTTON=")Run Program(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_RUN_BUTTON=")Run Program(?=") ==> Starten
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_STOPPING_BUTTON=")Stopping...(?=") ==> 
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_STOP_BUTTON=")Stop Program(?=") ==> 
 (?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_VIA_APP_TITLE=")App(?=") ==> 
@@ -787,14 +788,14 @@
 (?<=OZOBOT_HTML_MEMORY_SIZE_TITLE=")Configure memory size(?=") ==> 
 (?<=OZOBOT_HTML_MEMORY_TAB_TITLE=")Memory(?=") ==> 
 (?<=OZOBOT_HTML_NAME_TEXT=")Username(?=") ==> 
-(?<=OZOBOT_HTML_NEW_PROGRAM_BUTTON=")New Program(?=") ==> 
-(?<=OZOBOT_HTML_OPEN_PROGRAM_BUTTON=")Open Program(?=") ==> 
-(?<=OZOBOT_HTML_OPEN_PROGRAM_TITLE=")Open Program(?=") ==> 
+(?<=>)New Program(?=<) ==> Neues Programm
+(?<=>)Open Program(?=<) ==> Programm öffnen
 (?<=OZOBOT_HTML_Overwrite_SLOT_BUTTON=")Overwrite(?=") ==> 
 (?<=OZOBOT_HTML_PERSISTENT_REGISTERS_TITLE=")Persistent registers(?=") ==> 
 (?<=OZOBOT_HTML_PRESS_ACTIVATE_ICON=")Press to<x id='BREAK'/>Activate(?=") ==> 
 (?<=OZOBOT_HTML_PROFILE_PHOTO_TEXT=")Profile photo(?=") ==> 
-(?<=OZOBOT_HTML_PROGRAM_DESCRIPTION=")Programs: buildable sequences for your bot.(?=") ==> 
+(?<=>)Programs(?=<) ==> Programme
+Programs: buildable sequences for your bot\. ==> Programme: Aneinandergereihte Bausteine für deinen Bot.
 (?<=OZOBOT_HTML_PROGRAM_EDITED=")Edited(?=") ==> 
 (?<=OZOBOT_HTML_PROGRAM_INFO_DESCRIPTION=")Here you can see the composition of Bit or Evo's memory when the program is loaded onto Bit or Evo. By default, stack size is maximized to not leave any memory unusable.(?=") ==> 
 (?<=OZOBOT_HTML_PROGRAM_INFO_FREE_LEGEND=")Free(?=") ==> 
@@ -833,13 +834,12 @@
 (?<=OZOBOT_HTML_INST3923637183690950141=")Need an Account?(?=") ==> 
 (?<=OZOBOT_HTML_RESET_PASSWORD_TEXT=")Reset password(?=") ==> 
 (?<=OZOBOT_HTML_RESET_SETTINGS_BUTTON=")Reset Editor Settings(?=") ==> 
-(?<=OZOBOT_HTML_SAVE_AS_PROGRAM_TITLE=")Save As(?=") ==> 
-(?<=OZOBOT_HTML_SAVE_PROGRAM_AS_BUTTON=")Save As(?=") ==> 
+(?<=>)Save As(?=<) ==> Speichern unter
 (?<=OZOBOT_HTML_SAVE_PROGRAM_BUTTON=")Save(?=") ==> 
 (?<=OZOBOT_HTML_SAVE_SLOT_BUTTON=")Save(?=") ==> 
 (?<=OZOBOT_HTML_SEARCH_PLACEHOLDER=")Search Glossary(?=") ==> 
 (?<=OZOBOT_HTML_SETTINGS_BUTTON=")Settings(?=") ==> 
-(?<=OZOBOT_HTML_SHARE_PROGRAM_BUTTON=")Share(?=") ==> 
+(?<=>)Share(?=<) ==> Teilen
 (?<=OZOBOT_HTML_SHOW_INSTRUCTIONS_BUTTON=")Show Instructions(?=") ==> 
 (?<=OZOBOT_HTML_SIGN_IN_PASSWORD_FIELD=")Password(?=") ==> 
 (?<=OZOBOT_HTML_SIGN_IN_TEXT=")Sign in(?=") ==> 
@@ -856,9 +856,9 @@
 (?<=OZOBOT_HTML_USB_LOADING_BIT_INSTRUCTIONS_PLUGIN_TEXT=")<x id='START_BOLD'/>2. Connect Bit+ through USB cable and click 'Pair'<x id='END_BOLD'/> in the window that opened in your browser.(?=") ==> 
 (?<=OZOBOT_HTML_USB_LOADING_HEADER=")Load Your Program(?=") ==> 
 (?<=OZOBOT_HTML_USERNAMES_PROGRAMS_BUTTON=")%1\u2019s Programs(?=") ==> 
-(?<=OZOBOT_HTML_USER_BUTTON=")Programs(?=") ==> 
+(?<=OZOBOT_HTML_USER_BUTTON=")Programs(?=") ==> Programme
 (?<=OZOBOT_HTML_USER_LEVEL=")Level <x id='LEVEL_NUMBER'/>(?=") ==> 
-(?<=OZOBOT_HTML_USER_PROFILE_TITLE=")Programs(?=") ==> 
+(?<=OZOBOT_HTML_USER_PROFILE_TITLE=")Programs(?=") ==> Programme
 (?<=OZOBOT_HTML_USER_SETTINGS_BUTTON=")Settings(?=") ==> 
 (?<=OZOBOT_HTML_USER_SETTINGS_TITLE=")User settings(?=") ==> 
 (?<=OZOBOT_HTML_VIEW_MAP_BUTTON=")View Map(?=") ==> 
@@ -1057,7 +1057,7 @@
 (?<=OZOBOT_TIMING_SYSTEM_DELAY_TITLE=")wait(?=") ==> Warte
 (?<=OZOBOT_TIMING_SYSTEM_DELAY_UNIT_MS=")\u00d7 10 ms(?=") ==> 
 (?<=OZOBOT_TIMING_THREAD_YIELD_TITLE=")thread yield(?=") ==> 
-(?<=OZOBOT_UNNAMED_PROGRAM_NAME=")Unnamed Program(?=") ==> 
+(?<=OZOBOT_UNNAMED_PROGRAM_NAME=")Unnamed Program(?=") ==> Namenloses Programm
 (?<=OZOBOT_WORKSPACE_BUTTON_TOOLTIP_COPY=")Copy(?=") ==> 
 (?<=OZOBOT_WORKSPACE_BUTTON_TOOLTIP_ERASE=")Erase all(?=") ==> 
 (?<=OZOBOT_WORKSPACE_BUTTON_TOOLTIP_METABOT=")MetaBot(?=") ==> 
