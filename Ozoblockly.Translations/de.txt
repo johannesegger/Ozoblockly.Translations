@@ -1,3 +1,6 @@
+# Don't cut block texts
+50<c\.length&&\(c=c\.substring\(0,48\)\+"\\u2026"\); ==> ;
+
 (?<=")Movement(?=") ==> Bewegung
 (?<=")Line Navigation(?=") ==> Linien
 (?<=")Light Effects(?=") ==> Licht
