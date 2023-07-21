@@ -15,8 +15,8 @@ builder.Services.AddReverseProxy()
     .LoadFromMemory(
         new[] {
             new RouteConfig {
-                RouteId = "translation-de",
-                Match = new RouteMatch { Methods = new[] { "GET" }, Path = "/editor/generated/de/compressed.js" },
+                RouteId = "translation",
+                Match = new RouteMatch { Methods = new[] { "GET" }, Path = "/editor/generated/{lang}/compressed.js" },
                 ClusterId = defaultClusterId
             },
             new RouteConfig {
@@ -35,7 +35,7 @@ builder.Services.AddReverseProxy()
         })
     .AddTransforms(context =>
     {
-        if (context.Route.RouteId == "translation-de")
+        if (context.Route.RouteId == "translation")
         {
             context.AddResponseTransform(async responseContext =>
             {
@@ -43,7 +43,10 @@ builder.Services.AddReverseProxy()
                 {
                     var body = await responseContext.ProxyResponse.Content.ReadAsStringAsync();
                     responseContext.SuppressResponseBody = true;
-                    body = ApplyTranslations(body);
+                    if (responseContext.HttpContext.GetRouteValue("lang") is string lang)
+                    {
+                        body = ApplyTranslations(body, lang);
+                    }
                     var bytes = Encoding.UTF8.GetBytes(body);
                     responseContext.HttpContext.Response.ContentLength = bytes.Length;
                     await responseContext.HttpContext.Response.Body.WriteAsync(bytes);
@@ -59,7 +62,11 @@ app.MapReverseProxy(proxyPipeline =>
     {
         if (context.Request.Path == "/")
         {
-            context.Response.Redirect("/editor?lang=de");
+            var lang = context.RequestServices
+                .GetRequiredService<IConfiguration>()
+                .GetValue<string>("DefaultLanguage");
+            var url = lang != null ? $"/editor?lang={lang}" : "/editor";
+            context.Response.Redirect(url);
             return Task.CompletedTask;
         }
 
@@ -68,24 +75,31 @@ app.MapReverseProxy(proxyPipeline =>
 });
 app.Run();
 
-static string ApplyTranslations(string body)
+static string ApplyTranslations(string body, string lang)
 {
-    return File.ReadAllLines("de.txt")
-        .Select(line => line.Split(" ==> "))
-        .Where(lineParts => lineParts.Length == 2 && lineParts[1] != "")
-        .Select(lineParts =>
-        {
-            try
+    try
+    {
+        return File.ReadAllLines($"{lang}.txt")
+            .Select(line => line.Split(" ==> "))
+            .Where(lineParts => lineParts.Length == 2 && lineParts[1] != "")
+            .Select(lineParts =>
             {
-                var pattern = new Regex(lineParts[0]);
-                var replacement = lineParts[1];
-                return new { Pattern = new Regex(lineParts[0]), Replacement = lineParts[1] };
-            }
-            catch
-            {
-                return null;
-            }
-        })
-        .Where(v => v != null)
-        .Aggregate(body, (b, x) => x!.Pattern.Replace(b, x.Replacement));
+                try
+                {
+                    var pattern = new Regex(lineParts[0]);
+                    var replacement = lineParts[1];
+                    return new { Pattern = new Regex(lineParts[0]), Replacement = lineParts[1] };
+                }
+                catch
+                {
+                    return null;
+                }
+            })
+            .Where(v => v != null)
+            .Aggregate(body, (b, x) => x!.Pattern.Replace(b, x.Replacement));
+    }
+    catch
+    {
+        return body;
+    }
 }
