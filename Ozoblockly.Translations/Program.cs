@@ -7,6 +7,15 @@ using Yarp.ReverseProxy.Transforms;
 const string defaultClusterId = "default";
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Logging.ClearProviders();
+builder.Services.AddLogging(loggingBuilder =>
+    loggingBuilder
+        .AddSimpleConsole(formatterOptions =>
+        {
+            formatterOptions.SingleLine = true;
+            formatterOptions.TimestampFormat = "HH:mm:ss.ff ";
+        })
+);
 builder.Services.AddReverseProxy()
     .ConfigureHttpClient((context, handler) =>
     {
@@ -37,6 +46,7 @@ builder.Services.AddReverseProxy()
     {
         if (context.Route.RouteId == "translation")
         {
+            var logger = context.Services.GetRequiredService<ILogger<Program>>();
             context.AddResponseTransform(async responseContext =>
             {
                 if (responseContext.ProxyResponse != null)
@@ -45,7 +55,7 @@ builder.Services.AddReverseProxy()
                     responseContext.SuppressResponseBody = true;
                     if (responseContext.HttpContext.GetRouteValue("lang") is string lang)
                     {
-                        body = ApplyTranslations(body, lang);
+                        body = ApplyTranslations(body, lang, logger);
                     }
                     var bytes = Encoding.UTF8.GetBytes(body);
                     responseContext.HttpContext.Response.ContentLength = bytes.Length;
@@ -75,7 +85,7 @@ app.MapReverseProxy(proxyPipeline =>
 });
 app.Run();
 
-static string ApplyTranslations(string body, string lang)
+static string ApplyTranslations(string body, string lang, ILogger logger)
 {
     try
     {
@@ -86,20 +96,20 @@ static string ApplyTranslations(string body, string lang)
             {
                 try
                 {
-                    var pattern = new Regex(lineParts[0]);
-                    var replacement = lineParts[1];
                     return new { Pattern = new Regex(lineParts[0]), Replacement = lineParts[1] };
                 }
-                catch
+                catch (Exception e)
                 {
+                    logger.LogWarning("Error while replacing \"{Pattern}\" with \"{Text}\": {ErrorMessage}", lineParts[0], lineParts[1], e.Message);
                     return null;
                 }
             })
             .Where(v => v != null)
             .Aggregate(body, (b, x) => x!.Pattern.Replace(b, x.Replacement));
     }
-    catch
+    catch (Exception e)
     {
+        logger.LogWarning("Error while applying translations: {ErrorMessage}", e.Message);
         return body;
     }
 }
