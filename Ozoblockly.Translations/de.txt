@@ -1,0 +1,1198 @@
+(?<=")Movement(?=") ==> Bewegung
+(?<=")Line Navigation(?=") ==> Linien
+(?<=")Light Effects(?=") ==> Licht
+(?<=")Sounds(?=") ==> Töne
+(?<=")Sensors(?=") ==> Sensoren
+(?<=")Button(?=") ==> Knopf
+(?<=")Wait(?=") ==> Warten
+(?<=")Timing(?=") ==> Zeit
+(?<=")Terminate(?=") ==> Beenden
+(?<=")Logic(?=") ==> Logik
+(?<=")Loops(?=") ==> Schleifen
+(?<=")Math(?=") ==> Mathematik
+(?<=")Variables(?=") ==> Variablen
+(?<=")Functions(?=") ==> Funktionen
+(?<=")Arrays(?=") ==> Datenfelder
+(?<=")List(?=") ==> Liste
+
+(?<=ADD_COMMENT=")Kommentar hinzuf\u00fcgen(?=") ==> 
+(?<=ARRAYS_DEFAULT_NAME=")arrayName(?=") ==> 
+(?<=CANNOT_DELETE_VARIABLE_PROCEDURE=")Can\u2019t delete the variable '%1' because it is part of the definition of the procedure '%2'(?=") ==> 
+(?<=CHANGE_VALUE_TITLE=")Wert \u00e4ndern:(?=") ==> 
+(?<=CLEAN_UP=")Bausteine aufr\u00e4umen(?=") ==> 
+(?<=COLLAPSE_ALL=")Alle Bausteine zusammenfalten(?=") ==> 
+(?<=COLLAPSE_BLOCK=")Baustein zusammenfalten(?=") ==> 
+(?<=COLOUR_BLEND_COLOUR1=")Farbe 1(?=") ==> 
+(?<=COLOUR_BLEND_COLOUR2=")und Farbe 2(?=") ==> 
+(?<=COLOUR_BLEND_HELPURL=")http://meyerweb.com/eric/tools/color-blend/(?=") ==> 
+(?<=COLOUR_BLEND_RATIO=")im Verh\u00e4ltnis(?=") ==> 
+(?<=COLOUR_BLEND_TITLE=")mische(?=") ==> 
+(?<=COLOUR_BLEND_TOOLTIP=")Vermischt 2 Farben mit konfigurierbarem Farbverh\u00e4ltnis (0.0 - 1.0).(?=") ==> 
+(?<=COLOUR_PICKER_HELPURL=")https://de.wikipedia.org/wiki/Farbe(?=") ==> 
+(?<=COLOUR_PICKER_TOOLTIP=")Erzeugt eine Farbe aus der Palette.(?=") ==> 
+(?<=COLOUR_RANDOM_HELPURL=")http://randomcolour.com(?=") ==> 
+(?<=COLOUR_RANDOM_TITLE=")zuf\u00e4llige Farbe(?=") ==> 
+(?<=COLOUR_RANDOM_TOOLTIP=")Erzeugt eine Farbe nach dem Zufallsprinzip.(?=") ==> 
+(?<=COLOUR_RGB_BLUE=")blau(?=") ==> 
+(?<=COLOUR_RGB_GREEN=")gr\u00fcn(?=") ==> 
+(?<=COLOUR_RGB_HELPURL=")https://de.wikipedia.org/wiki/RGB-Farbraum(?=") ==> 
+(?<=COLOUR_RGB_RED=")rot(?=") ==> 
+(?<=COLOUR_RGB_TITLE=")Farbe aus(?=") ==> 
+(?<=COLOUR_RGB_TOOLTIP=")Erzeugt eine Farbe mit selbst definierten Rot-, Gr\u00fcn- und Blauwerten. Alle Werte m\u00fcssen zwischen 0 und 100 liegen.(?=") ==> 
+(?<=CONTROLS_FLOW_STATEMENTS_HELPURL=")https://de.wikipedia.org/wiki/Kontrollstruktur(?=") ==> 
+(?<=CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK=")die Schleife abbrechen(?=") ==> 
+(?<=CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE=")sofort mit n\u00e4chstem Schleifendurchlauf fortfahren(?=") ==> 
+(?<=CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK=")Die umgebende Schleife beenden.(?=") ==> 
+(?<=CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE=")Diese Anweisung abbrechen und mit dem n\u00e4chsten Schleifendurchlauf fortfahren.(?=") ==> 
+(?<=CONTROLS_FLOW_STATEMENTS_WARNING=")Warnung: Dieser Baustein kann nur in einer Schleife verwendet werden.(?=") ==> 
+(?<=CONTROLS_FOREACH_HELPURL=")https://de.wikipedia.org/wiki/For-Schleife(?=") ==> 
+(?<=CONTROLS_FOREACH_TITLE=")f\u00fcr jeden Wert %1 aus der Liste %2(?=") ==> 
+(?<=CONTROLS_FOREACH_TOOLTIP=")F\u00fchrt eine Anweisung f\u00fcr jeden Wert in der Liste aus und setzt dabei die Variable "%1" auf den aktuellen Listenwert.(?=") ==> 
+(?<=CONTROLS_FOR_HELPURL=")https://de.wikipedia.org/wiki/For-Schleife(?=") ==> 
+(?<=CONTROLS_FOR_TITLE=")z\u00e4hle %1 von %2 bis %3 in Schritten von %4:(?=") ==> 
+(?<=CONTROLS_FOR_TOOLTIP=")Z\u00e4hlt die Variable "%1" von einem Startwert bis zu einem Endwert und f\u00fchrt f\u00fcr jeden Wert eine Anweisung aus.(?=") ==> 
+(?<=CONTROLS_IF_ELSEIF_TOOLTIP=")Eine weitere Bedingung hinzuf\u00fcgen.(?=") ==> 
+(?<=CONTROLS_IF_ELSE_TOOLTIP=")Eine sonst-Bedingung hinzuf\u00fcgen. F\u00fchrt eine Anweisung aus, falls keine Bedingung zutrifft.(?=") ==> 
+(?<=CONTROLS_IF_HELPURL=")https://github.com/google/blockly/wiki/IfElse(?=") ==> 
+(?<=CONTROLS_IF_IF_TOOLTIP=")Hinzuf\u00fcgen, entfernen oder sortieren von Sektionen(?=") ==> 
+(?<=CONTROLS_IF_MSG_ELSE=")sonst(?=") ==> 
+(?<=CONTROLS_IF_MSG_ELSEIF=")sonst falls(?=") ==> 
+(?<=CONTROLS_IF_MSG_IF=")falls(?=") ==> 
+(?<=CONTROLS_IF_TOOLTIP_1=")F\u00fchrt eine Anweisung aus, falls eine Bedingung wahr ist.(?=") ==> 
+(?<=CONTROLS_IF_TOOLTIP_2=")F\u00fchrt die erste Anweisung aus, falls eine Bedingung wahr ist.  F\u00fchrt ansonsten die zweite Anweisung aus.(?=") ==> 
+(?<=CONTROLS_IF_TOOLTIP_3=")F\u00fchrt die erste Anweisung aus, falls die erste Bedingung wahr ist.  F\u00fchrt ansonsten die zweite Anweisung aus, falls die zweite Bedingung wahr ist.(?=") ==> 
+(?<=CONTROLS_IF_TOOLTIP_4=")F\u00fchre die erste Anweisung aus, falls die erste Bedingung wahr ist.  F\u00fchrt ansonsten die zweite Anweisung aus, falls die zweite Bedingung wahr ist.  F\u00fchrt die dritte Anweisung aus, falls keine der beiden Bedingungen wahr ist(?=") ==> 
+(?<=CONTROLS_REPEAT_HELPURL=")https://de.wikipedia.org/wiki/For-Schleife(?=") ==> 
+(?<=CONTROLS_REPEAT_INPUT_DO=")mache(?=") ==> 
+(?<=CONTROLS_REPEAT_TITLE=")wiederhole %1 mal:(?=") ==> Wiederhole %1 mal:
+(?<=CONTROLS_REPEAT_TITLE_REPEAT=")repeat(?=") ==> 
+(?<=CONTROLS_REPEAT_TITLE_TIMES=")times(?=") ==> 
+(?<=CONTROLS_REPEAT_TOOLTIP=")Eine Anweisung mehrfach ausf\u00fchren.(?=") ==> 
+(?<=CONTROLS_WHILEUNTIL_HELPURL=")https://de.wikipedia.org/wiki/Schleife_%28Programmierung%29(?=") ==> 
+(?<=CONTROLS_WHILEUNTIL_OPERATOR_UNTIL=")wiederhole bis(?=") ==> 
+(?<=CONTROLS_WHILEUNTIL_OPERATOR_WHILE=")wiederhole solange(?=") ==> 
+(?<=CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL=")F\u00fchrt Anweisungen aus solange die Bedingung unwahr ist.(?=") ==> 
+(?<=CONTROLS_WHILEUNTIL_TOOLTIP_WHILE=")F\u00fchrt Anweisungen aus solange die Bedingung wahr ist.(?=") ==> 
+(?<=DELETE_ALL_BLOCKS=")Alle %1 Bausteine l\u00f6schen?(?=") ==> 
+(?<=DELETE_BLOCK=")Baustein l\u00f6schen(?=") ==> 
+(?<=DELETE_VARIABLE=")Die Variable \u201e%1\u201c l\u00f6schen(?=") ==> 
+(?<=DELETE_VARIABLE_CONFIRMATION=")%1 Verwendungen der Variable \u201e%2\u201c l\u00f6schen?(?=") ==> 
+(?<=DELETE_X_BLOCKS=")%1 Bausteine l\u00f6schen(?=") ==> 
+(?<=DISABLE_BLOCK=")Baustein deaktivieren(?=") ==> 
+(?<=DOWNLOAD=")Download(?=") ==> 
+(?<=DUPLICATE_BLOCK=")Kopieren(?=") ==> 
+(?<=DUPLICATE_COMMENT=")Duplicate Comment(?=") ==> 
+(?<=ENABLE_BLOCK=")Baustein aktivieren(?=") ==> 
+(?<=EXPAND_ALL=")Alle Bausteine entfalten(?=") ==> 
+(?<=EXPAND_BLOCK=")Baustein entfalten(?=") ==> 
+(?<=EXPLORE_CHALANGES_BUTTON=")Explore Challenges(?=") ==> 
+(?<=EXPLORE_CHALANGES_MODAL_CLASSROOM_LINK=")<x id='START_STRONG'/>Are you an educator?<x id='END_STRONG'/> Find standards-aligned lessons for all grades and subjects in <x id='START_LINK'/>Ozobot Classroom<x id='END_LINK'/>(?=") ==> 
+(?<=EXPLORE_CHALANGES_MODAL_SHOP_LINK=")<x id='START_LINK'/>Shop Ozobots<x id='END_LINK'/> to code with a real robot(?=") ==> 
+(?<=EXPLORE_CHALANGES_MODAL_TITLE=")Explore Challenges(?=") ==> 
+(?<=EXTERNAL_INPUTS=")externe Eing\u00e4nge(?=") ==> 
+(?<=HELP=")Hilfe(?=") ==> 
+(?<=INLINE_INPUTS=")interne Eing\u00e4nge(?=") ==> 
+(?<=LISTS_CREATE_EMPTY_HELPURL=")https://github.com/google/blockly/wiki/Lists#create-empty-list(?=") ==> 
+(?<=LISTS_CREATE_EMPTY_TITLE=")erzeuge eine leere Liste(?=") ==> 
+(?<=LISTS_CREATE_EMPTY_TOOLTIP=")Erzeugt eine leere Liste ohne Inhalt.(?=") ==> 
+(?<=LISTS_CREATE_WITH_CONTAINER_TITLE_ADD=")Liste(?=") ==> 
+(?<=LISTS_CREATE_WITH_CONTAINER_TOOLTIP=")Hinzuf\u00fcgen, entfernen und sortieren von Elementen.(?=") ==> 
+(?<=LISTS_CREATE_WITH_HELPURL=")https://github.com/google/blockly/wiki/Lists#create-list-with(?=") ==> 
+(?<=LISTS_CREATE_WITH_INPUT_WITH=")erzeuge Liste mit(?=") ==> 
+(?<=LISTS_CREATE_WITH_ITEM_TOOLTIP=")Ein Element zur Liste hinzuf\u00fcgen.(?=") ==> 
+(?<=LISTS_CREATE_WITH_TOOLTIP=")Erzeugt eine Liste aus den angegebenen Elementen.(?=") ==> 
+(?<=LISTS_GET_INDEX_FIRST=")erstes(?=") ==> 
+(?<=LISTS_GET_INDEX_FROM_END=")#tes von hinten(?=") ==> 
+(?<=LISTS_GET_INDEX_FROM_START=")#tes(?=") ==> 
+(?<=LISTS_GET_INDEX_GET=")nimm(?=") ==> 
+(?<=LISTS_GET_INDEX_GET_REMOVE=")nimm und entferne(?=") ==> 
+(?<=LISTS_GET_INDEX_LAST=")letztes(?=") ==> 
+(?<=LISTS_GET_INDEX_RANDOM=")zuf\u00e4lliges(?=") ==> 
+(?<=LISTS_GET_INDEX_REMOVE=")entferne(?=") ==> 
+(?<=LISTS_GET_INDEX_TAIL=")(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_FIRST=")Extrahiert das erste Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_FROM=")Extrahiert das Element an der angegebenen Position in der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_LAST=")Extrahiert das letzte Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_RANDOM=")Extrahiert ein zuf\u00e4lliges Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FIRST=")Extrahiert und entfernt das erste Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FROM=")Extrahiert und entfernt das Element an der angegebenen Position aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_LAST=")Extrahiert und entfernt das letzte Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_RANDOM=")Extrahiert und entfernt ein zuf\u00e4lliges Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_REMOVE_FIRST=")Entfernt das erste Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_REMOVE_FROM=")Entfernt das Element an der angegebenen Position aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_REMOVE_LAST=")Entfernt das letzte Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_INDEX_TOOLTIP_REMOVE_RANDOM=")Entfernt ein zuf\u00e4lliges Element aus der Liste.(?=") ==> 
+(?<=LISTS_GET_SUBLIST_END_FROM_END=")bis zu # von hinten(?=") ==> 
+(?<=LISTS_GET_SUBLIST_END_FROM_START=")bis zu #(?=") ==> 
+(?<=LISTS_GET_SUBLIST_END_LAST=")bis zum Ende(?=") ==> 
+(?<=LISTS_GET_SUBLIST_HELPURL=")http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm(?=") ==> 
+(?<=LISTS_GET_SUBLIST_START_FIRST=")erhalte Unterliste vom Anfang(?=") ==> 
+(?<=LISTS_GET_SUBLIST_START_FROM_END=")erhalte Unterliste von # von hinten(?=") ==> 
+(?<=LISTS_GET_SUBLIST_START_FROM_START=")erhalte Unterliste von #(?=") ==> 
+(?<=LISTS_GET_SUBLIST_TAIL=")(?=") ==> 
+(?<=LISTS_GET_SUBLIST_TOOLTIP=")Erstellt eine Kopie mit dem angegebenen Abschnitt der Liste.(?=") ==> 
+(?<=LISTS_INDEX_FROM_END_TOOLTIP=")%1 ist das letzte Element.(?=") ==> 
+(?<=LISTS_INDEX_FROM_START_TOOLTIP=")%1 ist das erste Element.(?=") ==> 
+(?<=LISTS_INDEX_OF_FIRST=")suche erstes Auftreten von(?=") ==> 
+(?<=LISTS_INDEX_OF_HELPURL=")http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm(?=") ==> 
+(?<=LISTS_INDEX_OF_LAST=")suche letztes Auftreten von(?=") ==> 
+(?<=LISTS_INDEX_OF_TOOLTIP=")Sucht die Position (Index) eines Elementes in der Liste. Gibt %1 zur\u00fcck, falls kein Element gefunden wurde.(?=") ==> 
+(?<=LISTS_INLIST=")in der Liste(?=") ==> 
+(?<=LISTS_ISEMPTY_HELPURL=")https://github.com/google/blockly/wiki/Lists#is-empty(?=") ==> 
+(?<=LISTS_ISEMPTY_TITLE=")%1 ist leer(?=") ==> 
+(?<=LISTS_ISEMPTY_TOOLTIP=")Ist wahr, falls die Liste leer ist.(?=") ==> 
+(?<=LISTS_LENGTH_HELPURL=")https://github.com/google/blockly/wiki/Lists#length-of(?=") ==> 
+(?<=LISTS_LENGTH_TITLE=")L\u00e4nge von %1(?=") ==> 
+(?<=LISTS_LENGTH_TOOLTIP=")Die Anzahl von Elementen in der Liste.(?=") ==> 
+(?<=LISTS_REPEAT_HELPURL=")http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm(?=") ==> 
+(?<=LISTS_REPEAT_TITLE=")erzeuge Liste mit %2 mal dem Element %1\u200b(?=") ==> 
+(?<=LISTS_REPEAT_TOOLTIP=")Erzeugt eine Liste mit einer variablen Anzahl von Elementen(?=") ==> 
+(?<=LISTS_REVERSE_HELPURL=")https://github.com/google/blockly/wiki/Lists#reversing-a-list(?=") ==> 
+(?<=LISTS_REVERSE_MESSAGE0=")reverse %1(?=") ==> 
+(?<=LISTS_REVERSE_TOOLTIP=")Reverse a copy of a list.(?=") ==> 
+(?<=LISTS_SET_INDEX_HELPURL=")http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm(?=") ==> 
+(?<=LISTS_SET_INDEX_INPUT_TO=")ein(?=") ==> 
+(?<=LISTS_SET_INDEX_INSERT=")f\u00fcge als(?=") ==> 
+(?<=LISTS_SET_INDEX_SET=")setze f\u00fcr(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_INSERT_FIRST=")F\u00fcgt das Element an den Anfang der Liste an.(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_INSERT_FROM=")F\u00fcgt das Element an der angegebenen Position in die Liste ein.(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_INSERT_LAST=")F\u00fcgt das Element ans Ende der Liste an.(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_INSERT_RANDOM=")F\u00fcgt das Element zuf\u00e4llig in die Liste ein.(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_SET_FIRST=")Setzt das erste Element in der Liste.(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_SET_FROM=")Setzt das Element an der angegebenen Position in der Liste.(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_SET_LAST=")Setzt das letzte Element in die Liste.(?=") ==> 
+(?<=LISTS_SET_INDEX_TOOLTIP_SET_RANDOM=")Setzt ein zuf\u00e4lliges Element in der Liste.(?=") ==> 
+(?<=LISTS_SORT_HELPURL=")https://github.com/google/blockly/wiki/Lists#sorting-a-list(?=") ==> 
+(?<=LISTS_SORT_ORDER_ASCENDING=")aufsteigend(?=") ==> 
+(?<=LISTS_SORT_ORDER_DESCENDING=")absteigend(?=") ==> 
+(?<=LISTS_SORT_TITLE=")%1 %2 %3 sortieren(?=") ==> 
+(?<=LISTS_SORT_TOOLTIP=")Eine Kopie einer Liste sortieren.(?=") ==> 
+(?<=LISTS_SORT_TYPE_IGNORECASE=")alphabetisch, Gro\u00dfschreibung ignorieren(?=") ==> 
+(?<=LISTS_SORT_TYPE_NUMERIC=")numerisch(?=") ==> 
+(?<=LISTS_SORT_TYPE_TEXT=")alphabetisch(?=") ==> 
+(?<=LISTS_SPLIT_HELPURL=")https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists(?=") ==> 
+(?<=LISTS_SPLIT_LIST_FROM_TEXT=")Liste aus Text erstellen(?=") ==> 
+(?<=LISTS_SPLIT_TEXT_FROM_LIST=")Text aus Liste erstellen(?=") ==> 
+(?<=LISTS_SPLIT_TOOLTIP_JOIN=")Liste mit Texten in einen Text vereinen, getrennt durch ein Trennzeichen.(?=") ==> 
+(?<=LISTS_SPLIT_TOOLTIP_SPLIT=")Text in eine Liste mit Texten aufteilen, unterbrochen bei jedem Trennzeichen.(?=") ==> 
+(?<=LISTS_SPLIT_WITH_DELIMITER=")mit Trennzeichen(?=") ==> 
+(?<=LOGIC_BOOLEAN_FALSE=")unwahr(?=") ==> 
+(?<=LOGIC_BOOLEAN_HELPURL=")https://github.com/google/blockly/wiki/Logic#values(?=") ==> 
+(?<=LOGIC_BOOLEAN_TOOLTIP=")Ist entweder wahr oder unwahr(?=") ==> 
+(?<=LOGIC_BOOLEAN_TRUE=")wahr(?=") ==> 
+(?<=LOGIC_COMPARE_HELPURL=")https://de.wikipedia.org/wiki/Vergleich_%28Zahlen%29(?=") ==> 
+(?<=LOGIC_COMPARE_TOOLTIP_EQ=")Ist wahr, falls beide Werte gleich sind.(?=") ==> 
+(?<=LOGIC_COMPARE_TOOLTIP_GT=")Ist wahr, falls der erste Wert gr\u00f6\u00dfer als der zweite Wert ist.(?=") ==> 
+(?<=LOGIC_COMPARE_TOOLTIP_GTE=")Ist wahr, falls der erste Wert gr\u00f6\u00dfer als oder gleich gro\u00df wie der zweite Wert ist.(?=") ==> 
+(?<=LOGIC_COMPARE_TOOLTIP_LT=")Ist wahr, falls der erste Wert kleiner als der zweite Wert ist.(?=") ==> 
+(?<=LOGIC_COMPARE_TOOLTIP_LTE=")Ist wahr, falls der erste Wert kleiner als oder gleich gro\u00df wie der zweite Wert ist.(?=") ==> 
+(?<=LOGIC_COMPARE_TOOLTIP_NEQ=")Ist wahr, falls beide Werte unterschiedlich sind.(?=") ==> 
+(?<=LOGIC_NEGATE_HELPURL=")https://github.com/google/blockly/wiki/Logic#not(?=") ==> 
+(?<=LOGIC_NEGATE_TITLE=")nicht %1(?=") ==> 
+(?<=LOGIC_NEGATE_TOOLTIP=")Ist wahr, falls der Eingabewert unwahr ist.  Ist unwahr, falls der Eingabewert wahr ist.(?=") ==> 
+(?<=LOGIC_NULL=")null(?=") ==> 
+(?<=LOGIC_NULL_HELPURL=")https://de.wikipedia.org/wiki/Nullwert(?=") ==> 
+(?<=LOGIC_NULL_TOOLTIP=")Ist "null".(?=") ==> 
+(?<=LOGIC_OPERATION_AND=")und(?=") ==> 
+(?<=LOGIC_OPERATION_HELPURL=")https://github.com/google/blockly/wiki/Logic#logical-operations(?=") ==> 
+(?<=LOGIC_OPERATION_OR=")oder(?=") ==> 
+(?<=LOGIC_OPERATION_TOOLTIP_AND=")Ist wahr, falls beide Werte wahr sind.(?=") ==> 
+(?<=LOGIC_OPERATION_TOOLTIP_OR=")Ist wahr, falls einer der beiden Werte wahr ist.(?=") ==> 
+(?<=LOGIC_TERNARY_CONDITION=")pr\u00fcfe(?=") ==> 
+(?<=LOGIC_TERNARY_HELPURL=")https://de.wikipedia.org/wiki/%3F:#Auswahloperator(?=") ==> 
+(?<=LOGIC_TERNARY_IF_FALSE=")falls unwahr(?=") ==> 
+(?<=LOGIC_TERNARY_IF_TRUE=")falls wahr(?=") ==> 
+(?<=LOGIC_TERNARY_TOOLTIP=")\u00dcberpr\u00fcft eine Bedingung "pr\u00fcfe". Falls die Bedingung wahr ist, wird der "falls wahr" Wert zur\u00fcckgegeben, andernfalls der "falls unwahr" Wert(?=") ==> 
+(?<=MATH_ADDITION_SYMBOL=")+(?=") ==> 
+(?<=MATH_ARITHMETIC_HELPURL=")https://de.wikipedia.org/wiki/Grundrechenart(?=") ==> 
+(?<=MATH_ARITHMETIC_TOOLTIP_ADD=")Ist die Summe zweier Zahlen.(?=") ==> 
+(?<=MATH_ARITHMETIC_TOOLTIP_DIVIDE=")Ist der Quotient zweier Zahlen.(?=") ==> 
+(?<=MATH_ARITHMETIC_TOOLTIP_MINUS=")Ist die Differenz zweier Zahlen.(?=") ==> 
+(?<=MATH_ARITHMETIC_TOOLTIP_MULTIPLY=")Ist das Produkt zweier Zahlen.(?=") ==> 
+(?<=MATH_ARITHMETIC_TOOLTIP_POWER=")Ist die erste Zahl potenziert mit der zweiten Zahl.(?=") ==> 
+(?<=MATH_ATAN2_HELPURL=")https://en.wikipedia.org/wiki/Atan2(?=") ==> 
+(?<=MATH_ATAN2_TITLE=")atan2 of X:%1 Y:%2(?=") ==> 
+(?<=MATH_ATAN2_TOOLTIP=")Return the arctangent of point (X, Y) in degrees from -180 to 180.(?=") ==> 
+(?<=MATH_CHANGE_HELPURL=")https://de.wikipedia.org/wiki/Inkrement_und_Dekrement(?=") ==> 
+(?<=MATH_CHANGE_TITLE=")erh\u00f6he %1 um %2(?=") ==> 
+(?<=MATH_CHANGE_TOOLTIP=")Addiert eine Zahl zu "%1".(?=") ==> 
+(?<=MATH_CONSTANT_HELPURL=")https://de.wikipedia.org/wiki/Mathematische_Konstante(?=") ==> 
+(?<=MATH_CONSTANT_TOOLTIP=")Mathematische Konstanten wie: \u03c0 (3.141\u2026), e (2.718\u2026), \u03c6 (1.618\u2026), sqrt(2) (1.414\u2026), sqrt(\u00bd) (0.707\u2026) oder \u221e (unendlich).(?=") ==> 
+(?<=MATH_CONSTRAIN_HELPURL=")https://en.wikipedia.org/wiki/Clamping_(graphics)(?=") ==> 
+(?<=MATH_CONSTRAIN_TITLE=")begrenze %1 zwischen %2 und %3(?=") ==> 
+(?<=MATH_CONSTRAIN_TOOLTIP=")Begrenzt eine Zahl auf den Wertebereich zwischen zwei anderen Zahlen (inklusiv).(?=") ==> 
+(?<=MATH_DIVISION_SYMBOL=")\u00f7(?=") ==> 
+(?<=MATH_IS_DIVISIBLE_BY=")ist teilbar durch(?=") ==> 
+(?<=MATH_IS_EVEN=")ist gerade(?=") ==> 
+(?<=MATH_IS_NEGATIVE=")ist negativ(?=") ==> 
+(?<=MATH_IS_ODD=")ist ungerade(?=") ==> 
+(?<=MATH_IS_POSITIVE=")ist positiv(?=") ==> 
+(?<=MATH_IS_PRIME=")ist eine Primzahl(?=") ==> 
+(?<=MATH_IS_TOOLTIP=")\u00dcberpr\u00fcft ob eine Zahl gerade, ungerade, eine Primzahl, ganzzahlig, positiv, negativ oder durch eine zweite Zahl teilbar ist.  Gibt wahr oder unwahr zur\u00fcck.(?=") ==> 
+(?<=MATH_IS_WHOLE=")ist eine ganze Zahl(?=") ==> 
+(?<=MATH_MODULO_HELPURL=")https://de.wikipedia.org/wiki/Modulo(?=") ==> 
+(?<=MATH_MODULO_TITLE=")Rest von %1 \u00f7 %2(?=") ==> 
+(?<=MATH_MODULO_TOOLTIP=")Der Rest nach einer Division.(?=") ==> 
+(?<=MATH_MULTIPLICATION_SYMBOL=")\u00d7(?=") ==> 
+(?<=MATH_NUMBER_HELPURL=")https://de.wikipedia.org/wiki/Zahl(?=") ==> 
+(?<=MATH_NUMBER_TOOLTIP=")Eine Zahl.(?=") ==> 
+(?<=MATH_ONLIST_HELPURL=")(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_AVERAGE=")Mittelwert der Liste(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_MAX=")Maximalwert der Liste(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_MEDIAN=")Median der Liste(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_MIN=")Minimalwert der Liste(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_MODE=")am h\u00e4ufigsten in der Liste(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_RANDOM=")Zufallswert aus der Liste(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_STD_DEV=")Standardabweichung der Liste(?=") ==> 
+(?<=MATH_ONLIST_OPERATOR_SUM=")Summe \u00fcber die Liste(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_AVERAGE=")Ist der Durchschnittswert aller Zahlen in einer Liste.(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_MAX=")Ist die gr\u00f6\u00dfte Zahl in einer Liste.(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_MEDIAN=")Ist der Median aller Zahlen in einer Liste.(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_MIN=")Ist die kleinste Zahl in einer Liste.(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_MODE=")Findet die Werte mit dem h\u00e4ufigstem Vorkommen in der Liste.(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_RANDOM=")Gibt einen zuf\u00e4lligen Wert aus der Liste zur\u00fcck.(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_STD_DEV=")Ist die Standardabweichung aller Werte in der Liste.(?=") ==> 
+(?<=MATH_ONLIST_TOOLTIP_SUM=")Ist die Summe aller Zahlen in einer Liste.(?=") ==> 
+(?<=MATH_POWER_SYMBOL=")^(?=") ==> 
+(?<=MATH_RANDOM_FLOAT_HELPURL=")https://de.wikipedia.org/wiki/Zufallszahlen(?=") ==> 
+(?<=MATH_RANDOM_FLOAT_TITLE_RANDOM=")Zufallszahl (0.0 - 1.0)(?=") ==> 
+(?<=MATH_RANDOM_FLOAT_TOOLTIP=")Erzeugt eine Zufallszahl zwischen 0.0 (inklusiv) und 1.0 (exklusiv).(?=") ==> 
+(?<=MATH_RANDOM_INT_HELPURL=")https://de.wikipedia.org/wiki/Zufallszahlen(?=") ==> 
+(?<=MATH_RANDOM_INT_TITLE=")ganzzahlige Zufallszahl zwischen %1 und %2(?=") ==> 
+(?<=MATH_RANDOM_INT_TOOLTIP=")Erzeugt eine ganzzahlige Zufallszahl zwischen zwei Zahlen (inklusiv).(?=") ==> 
+(?<=MATH_ROUND_HELPURL=")https://de.wikipedia.org/wiki/Runden(?=") ==> 
+(?<=MATH_ROUND_OPERATOR_ROUND=")runde(?=") ==> 
+(?<=MATH_ROUND_OPERATOR_ROUNDDOWN=")runde ab(?=") ==> 
+(?<=MATH_ROUND_OPERATOR_ROUNDUP=")runde auf(?=") ==> 
+(?<=MATH_ROUND_TOOLTIP=")Eine Zahl auf- oder abrunden.(?=") ==> 
+(?<=MATH_SINGLE_HELPURL=")https://de.wikipedia.org/wiki/Quadratwurzel(?=") ==> 
+(?<=MATH_SINGLE_OP_ABSOLUTE=")Betrag(?=") ==> 
+(?<=MATH_SINGLE_OP_ROOT=")Quadratwurzel(?=") ==> 
+(?<=MATH_SINGLE_TOOLTIP_ABS=")Ist der Betrag einer Zahl.(?=") ==> 
+(?<=MATH_SINGLE_TOOLTIP_EXP=")Ist Wert der Exponentialfunktion einer Zahl.(?=") ==> 
+(?<=MATH_SINGLE_TOOLTIP_LN=")Ist der nat\u00fcrliche Logarithmus einer Zahl.(?=") ==> 
+(?<=MATH_SINGLE_TOOLTIP_LOG10=")Ist der dekadische Logarithmus einer Zahl.(?=") ==> 
+(?<=MATH_SINGLE_TOOLTIP_NEG=")Negiert eine Zahl.(?=") ==> 
+(?<=MATH_SINGLE_TOOLTIP_POW10=")Rechnet 10 hoch eine Zahl.(?=") ==> 
+(?<=MATH_SINGLE_TOOLTIP_ROOT=")Ist die Quadratwurzel einer Zahl.(?=") ==> 
+(?<=MATH_SUBTRACTION_SYMBOL=")-(?=") ==> 
+(?<=MATH_TRIG_ACOS=")acos(?=") ==> 
+(?<=MATH_TRIG_ASIN=")asin(?=") ==> 
+(?<=MATH_TRIG_ATAN=")atan(?=") ==> 
+(?<=MATH_TRIG_COS=")cos(?=") ==> 
+(?<=MATH_TRIG_HELPURL=")https://de.wikipedia.org/wiki/Trigonometrie(?=") ==> 
+(?<=MATH_TRIG_SIN=")sin(?=") ==> 
+(?<=MATH_TRIG_TAN=")tan(?=") ==> 
+(?<=MATH_TRIG_TOOLTIP_ACOS=")Ist der Arkuskosinus des Eingabewertes.(?=") ==> 
+(?<=MATH_TRIG_TOOLTIP_ASIN=")Ist der Arkussinus des Eingabewertes.(?=") ==> 
+(?<=MATH_TRIG_TOOLTIP_ATAN=")Ist der Arkustangens des Eingabewertes.(?=") ==> 
+(?<=MATH_TRIG_TOOLTIP_COS=")Ist der Kosinus des Winkels.(?=") ==> 
+(?<=MATH_TRIG_TOOLTIP_SIN=")Ist der Sinus des Winkels.(?=") ==> 
+(?<=MATH_TRIG_TOOLTIP_TAN=")Ist der Tangens des Winkels.(?=") ==> 
+(?<=NEW_COLOUR_VARIABLE=")Create colour variable...(?=") ==> 
+(?<=NEW_NUMBER_VARIABLE=")Create number variable...(?=") ==> 
+(?<=NEW_STRING_VARIABLE=")Create string variable...(?=") ==> 
+(?<=NEW_VARIABLE=")Variable erstellen \u2026(?=") ==> 
+(?<=NEW_VARIABLE_TITLE=")Name der neuen Variable:(?=") ==> 
+(?<=NEW_VARIABLE_TYPE_TITLE=")New variable type:(?=") ==> 
+(?<=ORDINAL_NUMBER_SUFFIX=")(?=") ==> 
+(?<=OZOBOT_ALERT_ARRAY_NOT_ADDRESSABLE_ERROR=")There is not enough memory for so many arrays. Please shrink some arrays or reduce the number of variables.(?=") ==> 
+(?<=OZOBOT_ALERT_COLOR_CODE_COMPILATION_ERROR=")The program contains an error. Some color code is not correct. Please fix your program and try again.(?=") ==> 
+(?<=OZOBOT_ALERT_DEPRECATED_ERROR=")The program contains an error. It is not allowed to use deprecated blocks.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_ARRAY_OUT_OF_RANGE=")Length of array must be between 1 and 127.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_FIREBASE_FAILED=")Failed to upload program!(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_FIREBASE_SUCCESS_MORE_INFO=")Connect your Ozobot Evo to the Evo App to load the program.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_INVALID_FILENAME=")Invalid file name. Please try again.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_INVALID_PHONE=")Please enter valid phone number.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_LOG_IN=")Please log in.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_NUMBER_OUT_OF_RANGE=")Ozobot can only understand numbers ranging from -128 to 127 due to its architecture. Your input will be adjusted to fit this range.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_OFFLINE=")You appear to be offline. Please check your connection and try again.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_PYTHON_EXPORT_INFO_OK=")You can open your code in Ozobot Python editor and run it on your Evo!(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_PYTHON_EXPORT_UNIMPLEMENTED_WARNING=")Ozobot Python editor is still in beta and not all commands are implemented. You can open your code in the editor, but some of the commands will not run on your Evo. (These commands are greyed out in the preview window.)(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_SLOT_SAVE_FAILED=")Your program could not be saved.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_SLOT_SAVE_FAILED_BINARY=")The blocks were saved, but you will not be able to load the program to your Evo through the app.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_SLOT_SAVE_FAILED_XML=")You can load the program in the App, but you will not be able to open it again from OzoBlockly.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_SLOT_SAVE_PROBLEM=")There was a problem saving your program.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_SLOT_SAVE_SUCCESS=")The program was saved to your programs.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_TRASH=")All blocks will be deleted. Are you sure?(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_UNSUPPORTED_BROWSER=")Unsupported browser:(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_UNSUPPORTED_BROWSER_TEXT=")Please download the most recent Chrome browser for best experience with OzoBlockly. You can proceed using your current browser, but some features may be limited.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_WEBGL_FAILED=")WebGL initialization failed. Your browser may not be supporting this technology. Please try using an alternative web browser for optimal OzoBlockly performance.(?=") ==> 
+(?<=OZOBOT_ALERT_DIALOG_WORKSPACE_EMPTY=")The workspace is empty. You have to add blocks to your program before loading Ozobot.(?=") ==> 
+(?<=OZOBOT_ALERT_EVO_BLOCKS_COMPILATION_ERROR=")The program contains an error. One of the blocks cannot be used in %1 mode. Please fix your program and try again.(?=") ==> 
+(?<=OZOBOT_ALERT_FLOW_STATEMENT_COMPILATION_ERROR=")The program contains an error. It is not allowed to use 'break' and 'continue' blocks outside of a loop block. Please fix your program and try again.(?=") ==> 
+(?<=OZOBOT_ALERT_FUNCTION_RETURN_COMPILATION_ERROR=")The program contains an error. It is not allowed to use a 'return' block outside of a function block. Please fix your program and try again.(?=") ==> 
+(?<=OZOBOT_ALERT_LIST_NOT_ADDRESSABLE_ERROR=")There is not enough memory for the list. Please shrink some arrays or reduce the number of variables.(?=") ==> 
+(?<=OZOBOT_ALERT_MEMORY_FULL_ERROR=")Woah, that\u2019s a mighty big program for a little bot! Remove some blocks and try again. You can check how much space your program is using in User Settings.(?=") ==> 
+(?<=OZOBOT_ALERT_NOT_A_NUMBER_ERROR=")%1 is not a number! Please use only integers values. (?=") ==> 
+(?<=OZOBOT_ALERT_NUMBER_OUT_OF_RANGE_ERROR=")%1 is not in range 0 to 255! Please use only integers values from range 0 to 255.(?=") ==> 
+(?<=OZOBOT_ALERT_OPTICAL_FLASHING_TIMEOUT_ERROR=")Optical communication to Ozobot failed due to the long delay between color frames. Please do not interact with OzoBlockly or other programs while Ozobot is loading. If this issue becomes more frequent, please try restarting your browser and/or device.(?=") ==> 
+(?<=OZOBOT_ALERT_SHARE_LINK_CREATION_FAILED=")Action unsuccessful.(?=") ==> 
+(?<=OZOBOT_ALERT_UNKNOWN_COMPILE_ERROR=")The program contains an error. Please fix your program and try again.(?=") ==> 
+(?<=OZOBOT_ALERT_VARIABLE_NOT_ADDRESSABLE_ERROR=")There is not enough memory for so many variables. Please reduce the number of variables.(?=") ==> 
+(?<=OZOBOT_ARRAY_DECLARE_TITLE=")declare array(?=") ==> 
+(?<=OZOBOT_ARRAY_GET_ELEMENT_FROM_ARRAY=")from array(?=") ==> 
+(?<=OZOBOT_ARRAY_GET_ELEMENT_TITLE=")get element(?=") ==> 
+(?<=OZOBOT_ARRAY_GET_LENGTH_TITLE=")get length of array(?=") ==> 
+(?<=OZOBOT_ARRAY_IN_ARRAY_SET_ELEMENT=")set element(?=") ==> 
+(?<=OZOBOT_ARRAY_IN_ARRAY_TITLE=")in array(?=") ==> 
+(?<=OZOBOT_ARRAY_IN_ARRAY_TO_VALUE=")to value(?=") ==> 
+(?<=OZOBOT_ARRAY_OF_LENGTH=")of length(?=") ==> 
+(?<=OZOBOT_BLOCK_DEPRECATION_WARNING=")This block is deprecated and should not be used!(?=") ==> 
+(?<=OZOBOT_BUTTON_CAPTURE_PRESS_TITLE=")capture button press events(?=") ==> 
+(?<=OZOBOT_BUTTON_GET_PRESS_COUNT_TITLE=")get button press count(?=") ==> 
+(?<=OZOBOT_BUTTON_SET_PRESS_COUNT_TITLE=")set button press count(?=") ==> 
+(?<=OZOBOT_CANCEL_PHONE_TEXT=")Cancel(?=") ==> 
+(?<=OZOBOT_CATEGORY_ARRAYS_TITLE=")Arrays(?=") ==> 
+(?<=OZOBOT_CATEGORY_FUNCTIONS_TITLE=")Functions(?=") ==> 
+(?<=OZOBOT_CATEGORY_VARIABLES_TITLE=")Variables(?=") ==> 
+(?<=OZOBOT_COLOR_CODES_BUILD_COLOR_CODE_TITLE=")build color code(?=") ==> 
+(?<=OZOBOT_COLOR_CODES_ENABLE_DEFAULT_ACTIONS_TITLE=")enable default actions for color codes(?=") ==> 
+(?<=OZOBOT_COLOR_CODES_EXECUTE_ASSOCIATED_ACTION_TITLE=")execute action associated with a color code(?=") ==> 
+(?<=OZOBOT_COLOR_CODES_GET_LAST_CODE_TITLE=")get last color code(?=") ==> 
+(?<=OZOBOT_CONFIRM_DIALOG_DELETE_WORKSPACE=")Open program? You\u2019ll lose any unsaved work.(?=") ==> 
+(?<=OZOBOT_CONFIRM_DIALOG_OVERWRITE=")Are you sure you want to save over this program?(?=") ==> 
+(?<=OZOBOT_CONFIRM_DIALOG_RESET=")Are you sure? This will reset all custom settings of the editor to default.(?=") ==> 
+(?<=OZOBOT_DIALOG_DESCRIPTION_MAX_CHARACTERS_TEXT=")Max. <x id='CHAR_LIMIT'/> characters(?=") ==> 
+(?<=OZOBOT_DIALOG_DESCRIPTION_PROGRAM_TITLE=")Program Description(?=") ==> 
+(?<=OZOBOT_DIALOG_GETTING_STARTED=")Get Started(?=") ==> 
+(?<=OZOBOT_DIALOG_GETTING_STARTED_TITLE=")Welcome to OzoBlockly!(?=") ==> 
+(?<=OZOBOT_DIALOG_GET_PHONE_TITLE=")Robot your world(?=") ==> 
+(?<=OZOBOT_DIALOG_GOTO_TUTORIAL=")OzoBlockly Tutorial(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_MENU_LOAD=")Load Program(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_MENU_PREPARE=")Prepare Ozobot(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_MENU_RUN=")Run<x id='START_BREAK'/>Program(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_1=")Set your screen brightness to 100%(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_10=")Double Press Ozobot's power button to start the program(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_2=")Hold down the power button on Ozobot for 2 seconds. The Ozobot will flash a white light when ready.(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_3=")Release button and place Ozobot against the white spot below. Ozobot will begin flashing white.(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_4=")When Ozobot blinks green, it means that it has successfully calibrated. Start over if Ozobot blinks red.(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_5=")Turn Ozobot on and center Ozobot over the white spot.(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_6=")Press the LOAD button to begin.(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_7=")Ozobot continuously flickering <x id='START_SPAN_1'/>green<x id='END_SPAN'/> while loading. If Ozobot turns <x id='START_SPAN_2'/>red<x id='END_SPAN'/>, press CANCEL and try again.(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_8=")If Ozobot does not start flashing green, return to &quot;Prepare Ozobot&quot; and calibrate.(?=") ==> 
+(?<=OZOBOT_DIALOG_HELP_INSTRUCTIONS_TEXT_9=")You're ready to go!(?=") ==> 
+(?<=OZOBOT_DIALOG_LOADING_TEXT_CALIBRATE=")Calibrate once per session, before the first load.(?=") ==> 
+(?<=OZOBOT_DIALOG_LOADING_TEXT_CALIBRATION_COMPLETE=")Calibration Complete?(?=") ==> 
+(?<=OZOBOT_DIALOG_LOADING_TEXT_FLASHING=")Ozobot flickers <x id='START_SPAN_1'/>Green<x id='END_SPAN'/>. If <x id='START_SPAN_2'/>Red<x id='END_SPAN'/>, click <x id='START_SPAN_3'/>HELP<x id='END_SPAN'/> to troubleshoot.(?=") ==> 
+(?<=OZOBOT_DIALOG_LOADING_TEXT_GET_HELP=")Get Help(?=") ==> 
+(?<=OZOBOT_DIALOG_LOADING_TEXT_NORMAL=")Place Ozobot against the white spot and press <x id='START_STRONG'/>LOAD<x id='END_STRONG'/>(?=") ==> 
+(?<=OZOBOT_DIALOG_LOADING_TEXT_RUN=")<x id='START_STRONG'/>Double-press<x id='END_STRONG'/> the power button to run program.(?=") ==> 
+(?<=OZOBOT_DIALOG_PROGRAM_OPEN_FILE_BUTTON=")Open from File(?=") ==> 
+(?<=OZOBOT_DIALOG_PROGRAM_SAVE_FILE_BUTTON=")Download(?=") ==> 
+(?<=OZOBOT_DIALOG_PROJECT_OPEN_BUTTON=")Open file(?=") ==> 
+(?<=OZOBOT_DIALOG_PROJECT_SAVE_BUTTON=")Save file(?=") ==> 
+(?<=OZOBOT_DIALOG_SHARE_CONTENT_TITLE=")Get Share Code(?=") ==> 
+(?<=OZOBOT_DIALOG_TEXT_DONT_SHOW_AGAIN=")Don\u2019t show me this again(?=") ==> 
+(?<=OZOBOT_EDITOR_SETTINGS_DEFAULT_BACKGROUND_COLOR=")Default(?=") ==> 
+(?<=OZOBOT_ENTER_PHONE_PLACEHOLDER=")Phone number(?=") ==> 
+(?<=OZOBOT_EVO_BLOCK_PART_UNCOMPATIBLE=")A part of this block is not compatible with Ozobot Bit!(?=") ==> 
+(?<=OZOBOT_EVO_CHECK_BOOTLOADER_KEY_DEVELOPMENT=")bootloader has development key(?=") ==> 
+(?<=OZOBOT_EVO_CHECK_BOOTLOADER_KEY_PRODUCTION=")bootloader has production key(?=") ==> 
+(?<=OZOBOT_EVO_CHECK_ROBOTS_COLOR=")is robot color(?=") ==> 
+(?<=OZOBOT_EVO_CHECK_SMARTSKIN=")is %1 smartskin connected(?=") ==> 
+(?<=OZOBOT_EVO_CHECK_USER_CONFIG_BASE_BEHAVIOUR=")is base behavior mode(?=") ==> 
+(?<=OZOBOT_EVO_CHECK_USER_CONFIG_CLASSROOM_BEHAVIOUR=")is classroom behavior mode(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_EOL=")After <x id='EOL_DATE'/>, you will not be able to use your robot with OzoBlockly without updating.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_ERROR=")Error(s) were encountered during the update. Please re-connect and try again. If the update fails repeatedly, try to run it on a different computer.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_FINISHED=")Your update is complete. Your bot is connected and ready to program.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_INTERRUPTED=")Your robot needs to finish updating before it can be used. Please click the Update button to continue.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_OPTIONAL=")There is an optional update available for your Evo.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_PROGRESS_MAIN=")Robot is updating. Please do not leave this page.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_PROGRESS_PERCENT=")Progress:(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_RECOMMENDED=")There has been an important update for your robot.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_RECONNECT=")Please reconnect to the robot to continue the update.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_RELEASE_NOTES=")View release notes(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_REMIND=")Remind me in 7 days(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_REQUIRED=")Your robot needs to be updated to work with OzoBlockly.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_SKIP_BUTTON=")Skip update(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_UNSUPPORTED=")Your robot cannot be updated. The experience might be limited or might not work at all.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_UPDATE=")Multiple updates may be required that can take up to 7 minutes. You might be prompted to reconnect to the robot a couple of times for the update to complete fully.(?=") ==> 
+(?<=OZOBOT_EVO_FIRMWARE_UPDATE_UPDATE_BUTTON=")Update to version %1(?=") ==> 
+(?<=OZOBOT_EVO_GET_BATTERY_LEVEL=")get battery level(?=") ==> 
+(?<=OZOBOT_EVO_GET_CHARGER_STATE_IS_BATTERY_CHARGING=")is battery charging(?=") ==> 
+(?<=OZOBOT_EVO_GET_CHARGER_STATE_IS_CONNECTED=")is charger connected(?=") ==> 
+(?<=OZOBOT_EVO_GET_CHARGER_STATE_IS_LOW_POWER=")is low-power charger(?=") ==> 
+(?<=OZOBOT_EVO_GET_FIRMWARE_VERSION_MAJOR=")get firmware version major number(?=") ==> 
+(?<=OZOBOT_EVO_GET_FIRMWARE_VERSION_MINOR=")get firmware version minor number(?=") ==> 
+(?<=OZOBOT_EVO_GET_FIRMWARE_VERSION_PATCH=")get firmware version patch number(?=") ==> 
+(?<=OZOBOT_EVO_IRCOMM_EMITTER_DISABLED=")disabled(?=") ==> 
+(?<=OZOBOT_EVO_IRCOMM_EMITTER_ENABLED=")enabled(?=") ==> 
+(?<=OZOBOT_EVO_IRCOMM_IS_EMITTER_ENABLED_TITLE=")is emitter(?=") ==> 
+(?<=OZOBOT_EVO_IRCOMM_RETRIEVE_MESSAGE_TITLE=")retrieve message on sensor(?=") ==> 
+(?<=OZOBOT_EVO_IRCOMM_RETRIEVE_SIGNAL_STRENGTH_TITLE=")retrieve message intensity on sensor(?=") ==> 
+(?<=OZOBOT_EVO_IRCOMM_SET_BROADCAST_MESSAGE_TITLE=")set periodic message broadcast for emitter(?=") ==> 
+(?<=OZOBOT_EVO_IRCOMM_SET_EMITTER_ENABLED_TITLE=")set emitter(?=") ==> 
+(?<=OZOBOT_EVO_IS_BLUETOOTH_DEVICE_CONNECTED=")is Bluetooth device connected(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_CHECKBOX_FRONT=")front(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_CHECKBOX_TITLE=")light(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_CHECKBOX_TOP=")top(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_COLOUR=")color(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_COLOUR_BLUE=")blue(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_COLOUR_GREEN=")green(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_COLOUR_RED=")red(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_LIGHTS=")lights(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_TITLE=")set light color(?=") ==> 
+(?<=OZOBOT_EVO_LED_COLOUR_PARAMETRIC_TOOLTIP=")set any LED(?=") ==> 
+(?<=OZOBOT_EVO_LIGHT_EFFECTS_SET_FRONT_LEDS_OFF_TITLE=")turn front lights off(?=") ==> 
+(?<=OZOBOT_EVO_LIGHT_EFFECTS_SET_LIGHT_COLOR_TITLE=")set light color(?=") ==> 
+(?<=OZOBOT_EVO_ONE_OF_OR=")or(?=") ==> 
+(?<=OZOBOT_EVO_ONE_OF_TITLE=")one of(?=") ==> 
+(?<=OZOBOT_EVO_ONE_OF_TOOLTIP_MULTI=")randomly do one of statemenets(?=") ==> 
+(?<=OZOBOT_EVO_ONE_OF_TOOLTIP_SIMPLE=")everytime do some statemenet(?=") ==> 
+(?<=OZOBOT_EVO_READ_SURFACE_PROXIMITY_SENSOR_TITLE=")read bottom surface proximity sensor(?=") ==> 
+(?<=OZOBOT_EVO_ROBOTS_COLOR_BLACK=")black(?=") ==> 
+(?<=OZOBOT_EVO_ROBOTS_COLOR_WHITE=")white(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_PROXIMITY_OBJECT_BEHIND_TITLE=")object behind(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_PROXIMITY_OBJECT_INFRONT_TITLE=")object in front(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_LEFT_FRONT=")left front(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_LEFT_REAR=")left rear(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_RIGHT_FRONT=")right front(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_RIGHT_REAR=")right rear(?=") ==> 
+(?<=OZOBOT_EVO_SENSORS_READ_PROXIMITY_SENSOR_TITLE=")read proximity sensor(?=") ==> 
+(?<=OZOBOT_EVO_SET_FRONT_LEDS_RANDOM_COLOUR_TITLE=")set front lights color randomly(?=") ==> 
+(?<=OZOBOT_EVO_SMARTSKIN_BLACK_WIDOW=")Black Widow(?=") ==> 
+(?<=OZOBOT_EVO_SMARTSKIN_CAPTAIN_AMERICA=")Captain America(?=") ==> 
+(?<=OZOBOT_EVO_SMARTSKIN_HULK=")Hulk(?=") ==> 
+(?<=OZOBOT_EVO_SMARTSKIN_IRONMAN=")Ironman(?=") ==> 
+(?<=OZOBOT_EVO_SMARTSKIN_NONE=")no(?=") ==> 
+(?<=OZOBOT_EVO_SMARTSKIN_ULTRON=")Ultron(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_MUTE_TITLE=")mute(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_A=")A(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_A_SHARP=")A#(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_B=")B(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_C=")C(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_C_SHARP=")C#(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_D=")D(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_D_SHARP=")D#(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_E=")E(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_F=")F(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_F_SHARP=")F#(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_G=")G(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_NOTE_G_SHARP=")G#(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_PLAY_MIDI_NOTE_NOTE_NUMBER=")MIDI nr.(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_PLAY_NOTE_SIMPLE_TITLE=")play note(?=") ==> Spiel Note
+(?<=OZOBOT_EVO_SOUNDS_PLAY_NOTE_WITH_DURATION_AND_OCTAVE_OCTAVE=")octave(?=") ==> 
+(?<=OZOBOT_EVO_SOUNDS_PLAY_NOTE_WITH_DURATION_DURATION=")duration(?=") ==> 
+(?<=OZOBOT_EVO_SOUND_PLAY_AUDIO_FILE_FILENAME_BYTES=")name bytes(?=") ==> 
+(?<=OZOBOT_EVO_SOUND_PLAY_AUDIO_FILE_TITLE=")play async audio file(?=") ==> 
+(?<=OZOBOT_EVO_SOUND_PLAY_FILE_SFX_BY_SELECTION_HAPPY=")happy(?=") ==> fröhlich
+(?<=OZOBOT_EVO_SOUND_PLAY_FILE_SFX_BY_SELECTION_LAUGH=")laugh(?=") ==> lachen
+(?<=OZOBOT_EVO_SOUND_PLAY_FILE_SFX_BY_SELECTION_SAD=")sad(?=") ==> traurig
+(?<=OZOBOT_EVO_SOUND_PLAY_FILE_SFX_BY_SELECTION_SURPRISED=")surprised(?=") ==> überrascht
+(?<=OZOBOT_EVO_SOUND_PLAY_FILE_SFX_BY_SELECTION_TITLE=")play(?=") ==> Spiele
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_BLACK=")black(?=") ==> schwarz
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_BLUE=")blue(?=") ==> blau
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_BY_SELECTION_TITLE=")say color(?=") ==> Sag Farbe
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_CYAN=")cyan(?=") ==> zyan
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_GREEN=")green(?=") ==> grün
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_MAGENTA=")magenta(?=") ==> magenta
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_RED=")red(?=") ==> rot
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_WHITE=")white(?=") ==> weiß
+(?<=OZOBOT_EVO_SOUND_SAY_COLOR_YELLOW=")yellow(?=") ==> gelb
+(?<=OZOBOT_EVO_SOUND_SAY_DIRECTION_BY_SELECTION_TITLE=")say direction(?=") ==> Sag Richtung
+(?<=OZOBOT_EVO_SOUND_SAY_DIRECTION_STRAIGHT=")forward(?=") ==> vorwärts
+(?<=OZOBOT_EVO_SOUND_SAY_NUMBER_BY_SELECTION_TITLE=")say number(?=") ==> Sag Zahl
+(?<=OZOBOT_EVO_SOUND_STOP_AUDIO_TITLE=")stop audio(?=") ==> 
+(?<=OZOBOT_FLASHING_TIME_ESTIMATE=")%1m %2s(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_ADD_BLOCKS_SUBHEADER=")Add Blocks(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_ADD_BLOCKS_TEXT=")Click on any of the categories in the left menu, then drag and drop blocks into the workspace.<x id='END_PARAGRAPH'/>TIPS:<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Blocks need to form one program so make sure that they click together.  You should hear a clicking sound when they do.<x id='END_ITEM'/><x id='START_ITEM'/>If two blocks cannot be used together, they won\u2019t connect.<x id='END_ITEM'/><x id='START_ITEM'/>You can mix blocks from different Modes!<x id='END_ITEM'/><x id='END_UNORDERED_LIST'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_BLE_LOADING_SUBHEADER=")BLE Loading (Evo only)(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_BLE_LOADING_TEXT=")<x id='START_PARAGRAPH'/>BLE Loading is faster than Flash Loading, and is only an option with Evo. It is available only in select browsers (Chrome or Edge recommended).<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>BLE Loading uses Bluetooth\u00ae to transfer programs instantly to Evo. Make sure your Bluetooth\u00ae is on!<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>In the Editor, go to Programs<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>in the right sidebar and click Connect.<x id='BLE_LOADING_IMAGE'/><x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>A new window will open in your browser. In the window, select your Evo and click \u201cPair\u201d.<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>In Programs, click 'Run Program' and watch Evo go!<x id='END_PARAGRAPH'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_CALIBRATE_SUBHEADER=")How to Calibrate to screen(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_CALIBRATE_TEXT_HOLD=")Hold down the power button for 2 seconds until the top LED light blinks white. Then release the power button.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_CALIBRATE_TEXT_INTRO=")Calibration prepares your Evo and Bit for Flash Loading. You only need to calibrate once per session, before the first load.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_CALIBRATE_TEXT_PLACE=")Place the bottom of your bot on the white calibration spot below.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_CALIBRATION_SPOT=")Calibration spot(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_CALIBRATION_TEXT_FINISHED=")Your bot will blink <x id='START_SPAN_1'/>GREEN<x id='END_SPAN'/> if calibration was successful. If your bot blinks <x id='START_SPAN_2'/>RED<x id='END_SPAN'/>, try again.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_CLASSROOM_SETTINGS_BLUETOOTH_TEXT=")To work with multiple devices and Ozobots, go to the Evo App's Settings. From there, tap &quot;Never Auto Connect&quot; and &quot;Classroom Mode&quot;. Numbering and naming your Evos is also highly recommended. For more info on how to do this, see <x id='START_LINK'/>ozo.bot/evo-classroom-setup<x id='END_LINK'/>.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_DELETE_BLOCKS_SUBHEADER=")Delete Blocks(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_DELETE_BLOCKS_TEXT=")There are two ways to delete blocks:<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Drag and drop a block into the trash can.<x id='END_ITEM'/><x id='END_UNORDERED_LIST'/><x id='TRASH_ICON'/>or<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Right click (on computer) or long press (on tablet) the block you want to delete.<x id='END_ITEM'/><x id='START_ITEM'/>Select \u201cDelete Block\u201d from the drop-down menu. <x id='END_ITEM'/><x id='END_UNORDERED_LIST'/><x id='DELETE_BLOCK_IMAGE'/>You can delete the entire program by clicking the trash can. Don\u2019t worry, the editor will ask again if you are sure to delete everything.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_DRAG_BLOCKS_SUBHEADER=")Tips for deleting blocks(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_DRAG_BLOCKS_TEXT=")<x id='START_PARAGRAPH'/>Note that when dragging a block, any blocks connected below your block will also move.<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>Separate the block you want to delete from rest below it by grabbing the block below the one you want to delete and return the rest back to where they belong.<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>Now you can move the block into the trash.<x id='END_PARAGRAPH'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_FLASHING_SUBHEADER=")Flash Loading(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_FLASHING_TEXT_FAIL=")If your bot turns <x id='START_SPAN'/>RED<x id='END_SPAN'/>, press CANCEL and try again.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_FLASHING_TEXT_INTRO=")Loading transfers the program from the editor to your bot. To load the program, your bot\u2019s color sensor needs to see the flashing colors on the loading spot.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_FLASHING_TEXT_LOAD=")Click on \u201cLoad Bit\u201d or \u201cLoad Evo\u201d.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_FLASHING_TEXT_ON=")Make sure your bot is turned on. If it is turned off, press the power button once.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_FLASHING_TEXT_PLACE=")Place the bottom of your bot on the loading spot directly on your screen.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_FLASHING_TEXT_PROGRESS=")Make sure your bot blinks <x id='START_SPAN'/>GREEN<x id='END_SPAN'/> until the progress bar shows loading is complete.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_HOME=")Home(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_LOAD_AND_RUN_SUBHEADER=")Load and Run(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_LOAD_AND_RUN_TEXT=")<x id='START_H4'/>1. Connect to your Evo.<x id='END_H4'/>Make sure Bluetooth\u00ae is on. From the Evo App home screen, connect to your Evo (Evo must be powered on). If your Evo disconnects while you're programming or loading, repeat this step.<x id='START_H4'/>2. Load and Run.<x id='END_H4'/>In the OzoBlockly Editor, go to Programs<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>in the right sidebar and tap &quot;Run Program&quot; on the bottom right.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_LOAD_AND_RUN_TIP_TEXT=")Tip: To run again, tap &quot;Run Program&quot; once more. You can also double-click Evo's Power Button to run the last program loaded (even when Evo isn't connected to the App).(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_MODIFY_BLOCKS_SUBHEADER=")Modify Blocks(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_MODIFY_BLOCKS_TEXT=")<x id='START_PARAGRAPH'/>Modify properties of most blocks by clicking and selecting new options.<x id='END_PARAGRAPH'/>For example, change LED Colors:<x id='MODIFY_LED_IMAGE'/>Change Movement direction or Speed:<x id='MODIFY_MOVEMENT_IMAGE'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_OPEN_SAVED_SUBHEADER=")Open a Saved Program(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_OPEN_SAVED_TEXT=")To open a saved program, go to Programs<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>in the right sidebar. Select &quot;Open Program.&quot;<x id='START_H4'/>Open From The Device<x id='END_H4'/>Select the &quot;On This Device&quot; tab to find programs you've stored on your computer or mobile device. Select the program you wish to open and click &quot;Open&quot;.<x id='START_H4'/>Open From File (computer only)<x id='END_H4'/>If you are working on a computer, you will also see the &quot;Open From File&quot; button. Click here to open any OzoBlockly program (with the .ozocode extension) that was saved on your computer. This is useful for OzoBlockly programs downloaded from the Ozobot Lesson Library.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_OPEN_SHARED_SUBHEADER=")Open a Shared Program(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_OPEN_SHARED_TEXT=")<x id='START_H4'/>Open with a Shared URL (computer only)<x id='END_H4'/>Simply click on the url or enter the url in a browser window and the OzoBlockly Editor will open with the program.<x id='START_H4'/>Open with a Share Code<x id='END_H4'/>To open a program with a Share Code, go to Programs<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>in the right sidebar. Select &quot;Open Programs&quot;, then select &quot;Enter Share Code&quot;. Enter the code you've been given and select &quot;OK&quot;. The program will appear in your Editor.<x id='START_PARAGRAPH'/><x id='START_STRONG'/>Tip:<x id='END_STRONG'/> The last 6 digits of a Share url are a unique Share Code! If you are on a tablet and only have the shared url, then you can still open the program by using its last 6 digits.<x id='END_PARAGRAPH'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_RUN_PROGRAM_SUBHEADER=")Run Program(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_RUN_TEXT=")<x id='START_PARAGRAPH_1'/>To run a program that you\u2019ve loaded to your bot, place your bot on a table or desk and double-click the power button.<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH_2'/>If you double click too slowly, you might accidentally turn your bot off. If you double click too fast, bot might only sense 1 click. Timing is everything!<x id='END_PARAGRAPH'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_SAVE_PROGRAM_SUBHEADER=")Save a Program(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_SAVE_PROGRAM_TEXT=")Find tools to start a new program, change the name of a program, and save a program in the Programs tab.<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>Select &quot;Save As&quot; to see saving options described below.<x id='START_H4'/>Save to Your Device<x id='END_H4'/>You will find programs stored to the device in the &quot;On This Device&quot; tab. You can save up to 12 programs to your device. On a tablet, these files will be stored within the App. On a computer, they'll be stored locally under the browser. Note: deleting the App or clearing the browser will result in losing these programs.<x id='START_H4'/>Download (computer only)<x id='END_H4'/>Click the &quot;Download&quot; button to save an OzoBlockly program to the file system of your computer.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_SCROLLING_SUBHEADER=")Scrolling(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_SCROLLING_TEXT=")When your program becomes too long, you can scroll horizontally and vertically. Use the scroll bars on the right and bottom of the editor window. Or, click and drag any free background area in the workspace.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_SHARE_PROGRAM_SUBHEADER=")Share a Program(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_SHARE_PROGRAM_TEXT=")<x id='START_PARAGRAPH'/>To share a program, you need to get the shared url or the share code. In Programs,<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>select &quot;Share&quot;. The popup will show both a Share url and Share Code. Note: the Share Code can be used on a tablet or computer, but the Share url only works on a computer.<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/><x id='START_STRONG'/>Tip:<x id='END_STRONG'/> The last 6 digits of a Share url are a unique Share Code! If you are on a tablet and only have the shared url, then you can still open the program by using its last 6 digits.<x id='END_PARAGRAPH'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_CALIBRATE=")Calibrate(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_EDIT_BLOCKS=")Edit Blocks(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_LOADING=")Loading(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_LOAD_AND_RUN=")Load and Run(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_RUN_PROGRAM=")Run Program(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_SAVE_SHARE=")Open, Save &amp; Share(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_TROUBLESHOOTING=")Troubleshooting(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TITLE_TUTORIAL=")Tutorial(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_BLUETOOTH_SUBHEADER=")Troubleshooting for BLE Connection(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_BLUETOOTH_SUBTITLE=")<x id='START_H4'/>In the Classroom<x id='END_H4'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_CALIBRATION_SUBHEADER=")Troubleshooting for Calibration to Screens(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_CALIBRATION_TEXT=")<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Set your screen brightness to 100%.<x id='END_ITEM'/><x id='START_ITEM'/>Make sure you release the button immediately after the white light on the top of your bot blinks (after about 2 seconds).<x id='END_ITEM'/><x id='END_UNORDERED_LIST'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_FLASHING_SUBHEADER=")Troubleshooting for Flash Loading(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_FLASHING_TEXT=")Your bot must blink green during the entire loading process. If your bot blinks red or isn\u2019t blinking green, loading was not successful.<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Make sure your bot is on.<x id='END_ITEM'/><x id='START_ITEM'/>Make sure to hold Ozobot steady during the load process so the color sensor can read the color \ufb02ashes.<x id='END_ITEM'/><x id='START_ITEM'/>Make sure that the screen brightness is at 100%.<x id='END_ITEM'/><x id='START_ITEM'/>Turn off auto-dim feature.<x id='END_ITEM'/><x id='START_ITEM'/>Turn off any \u201cblue-light \ufb01lter\u201d.<x id='END_ITEM'/><x id='START_ITEM'/>Minimize ambient light from windows and overhead lights.<x id='END_ITEM'/><x id='START_ITEM'/>Calibrate again. <x id='START_BUTTON'/>See help<x id='END_BUTTON'/><x id='END_ITEM'/><x id='START_ITEM'/>Restart your browser and close all other tabs.<x id='END_ITEM'/><x id='START_ITEM'/>Make sure your Ozobot is suf\ufb01ciently charged.<x id='END_ITEM'/><x id='END_UNORDERED_LIST'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_GENERAL_SUBHEADER=")General Troubleshooting(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_GENERAL_TEXT=")<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Make sure your bot is fully charged. When your bot\u2019s battery is low, some programs may not execute properly.<x id='END_ITEM'/><x id='START_ITEM'/>If you are using Flash Loading, make sure to calibrate your Ozobot to your screen. Usually, you only need to calibrate once per online session, but if light conditions change, you may need to re-calibrate.<x id='END_ITEM'/><x id='START_ITEM'/>For Evo, update your Evos in Ozobot Blockly or using the Evo App.<x id='END_ITEM'/><x id='START_ITEM'/>For Bit+, update your robot in Ozobot Blockly.<x id='END_ITEM'/><x id='START_ITEM'/>If you are using Evo for teaching in the classroom, set to <x id='START_STRONG'/>Classroom Mode<x id='END_STRONG'/> using the Evo App to disable tricks and behaviors designed for play at home.<x id='END_ITEM'/><x id='END_UNORDERED_LIST'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_RUNNING_SUBHEADER=")Troubleshooting for Running Programs(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_RUNNING_TEXT=")<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Make sure your bot is on.<x id='END_ITEM'/><x id='START_ITEM'/>Be sure you double click at the right speed. If you double click too slowly or too quickly, your bot will turn off/on instead of run programs.<x id='END_ITEM'/><x id='END_UNORDERED_LIST'/>(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_TROUBLESHOOTING_SUPPORT_SUBHEADER=")Support info(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_UNDO_SUBHEADER=")Undo or Re-do Action(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_UNDO_TEXT=")If you make a mistake you can always \u201cundo\u201d it by clicking on the \u201cUndo\u201d icon at the top of your workspace.  Or repeat an action with \u201cRedo\u201d icon.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_UPDATING_BIT_SUBHEADER=")Updating your Bit+(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_UPDATING_BIT_TEXT=")Just like your smartphone, Bit+ updates introduce new features and bug fixes. To update your Bit+ in Ozobot Blockly, go to Programs<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>and connect to the robot through USB. If your Bit+ needs an update, OzoBlockly will update it for you. Please don't close your browser window or disconnect your robot during the update - don't worry, it will only take a minute.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_UPDATING_EVO_SUBHEADER=")Updating your Evo(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_UPDATING_EVO_TEXT=")Just like your smartphone, Evo updates introduce new features and bug fixes.<x id='START_H4'/>In Ozobot Blockly<x id='END_H4'/><x id='START_PARAGRAPH'/>To update your Evo in Ozobot Blockly, go to Programs<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>and connect the robot through Bluetooth. If there are mandatory or recommended updates for your robot, a dialog window will appear to guide you. Keep your browser tab open through the whole update process. You may also be prompted to reconnect your robot at some point during the update.<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>To check for optional updates, press the Info button in the lower right corner.<x id='INFO_BUTTON_IMAGE'/>If an update is available, you will see a red button that opens the update dialog.<x id='END_PARAGRAPH'/><x id='START_H4'/>In Evo App<x id='END_H4'/>The Evo by Ozobot app allows you to update your Evo, or even multiple Evos at once. Check out the guides at our blog: <x id='START_LINK_1'/>Single Bot Update<x id='END_LINK'/> or <x id='START_LINK_2'/>Multi-Bot Update<x id='END_LINK'/>.(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_USB_LOADING_SUBHEADER=")USB Loading (Bit+ only)(?=") ==> 
+(?<=OZOBOT_HELP_INSTRUCTIONS_USB_LOADING_TEXT=")<x id='START_PARAGRAPH'/>The new Bit+ robot can load programs through USB connection. This function is available only in compatible browsers (Chrome or Edge recommended).<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>Make sure your editor is switched to 'Bit+' mode.<x id='BIT_SWITCH_IMAGE'/><x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>In the Editor, go to Programs<x id='PROGRAMS_TAB_BUTTON_IMAGE'/>in the right sidebar and click Connect.<x id='USB_LOADING_IMAGE'/><x id='START_PARAGRAPH'/>A new window will open in your browser. In the window, select your Bit+ and click \u201cPair\u201d.<x id='END_PARAGRAPH'/><x id='START_PARAGRAPH'/>In Programs, click 'Load Program' to load your program to your Bit+.<x id='END_PARAGRAPH'/>(?=") ==> 
+(?<=OZOBOT_HELP_LINK_TROUBLESHOOTING_CALIBRATION=")See more Troubleshooting for Calibration here.(?=") ==> 
+(?<=OZOBOT_HELP_LINK_TROUBLESHOOTING_FLASHING=")See more Troubleshooting for Loading here.(?=") ==> 
+(?<=OZOBOT_HTML_ADVANCED_SETTINGS_LEGEND=")Show Advanced Settings(?=") ==> 
+(?<=OZOBOT_HTML_AUTO_STACK_SIZE_LABEL=")Automatic stack size: (?=") ==> 
+(?<=OZOBOT_HTML_BACKGROUND_COLOUR_TITLE=")Background Color(?=") ==> 
+(?<=OZOBOT_HTML_BLE_LOADING_EVO_CONNECTED_TEXT=")Evo is connected(?=") ==> 
+(?<=OZOBOT_HTML_BLE_LOADING_EVO_INSTRUCTIONS_CONNECT_TEXT=")<x id='START_BOLD'/>2. Connect and click 'Pair'<x id='END_BOLD'/> in the window that opens in your browser.(?=") ==> 
+(?<=OZOBOT_HTML_BLE_LOADING_EVO_INSTRUCTIONS_POWER_TEXT=")<x id='START_BOLD'/>1. Power on Evo<x id='END_BOLD'/>(?=") ==> 
+(?<=OZOBOT_HTML_BLE_LOADING_HEADER=")Run Your Program(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_ARRAYS_TITLE=")Arrays(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_BUTTON_TITLE=")Button(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_FUNCTIONS_TITLE=")Functions(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_LIGHTS_TITLE=")Lights(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_LIGHT_EFFECTS_TITLE=")Light Effects(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_LINE_NAVIGATION_TITLE=")Line Navigation(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_LIST_TITLE=")List(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_LOGIC_TITLE=")Logic(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_LOOPS_TITLE=")Loops(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_MATH_TITLE=")Math(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_MOVEMENT_TITLE=")Movement(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_SENSORS_TITLE=")Sensors(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_SOUNDS_TITLE=")Sounds(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_SWARM_TITLE=")IR Comm(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_TERMINATE_TITLE=")Terminate(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_TIMING_TITLE=")Timing(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_VARIABLES_TITLE=")Variables(?=") ==> 
+(?<=OZOBOT_HTML_BLOCKS_WAIT_TITLE=")Wait(?=") ==> 
+(?<=OZOBOT_HTML_BUTTON_CLOSE=")Close(?=") ==> 
+(?<=OZOBOT_HTML_CANCEL_SLOT_BUTTON=")Cancel(?=") ==> 
+(?<=OZOBOT_HTML_CANCEL_TEXT=")Cancel(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGES_BUTTON=")Challenges(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGES_TITLE=")Challenges(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_2_MODE=")<x id='START_BOLD'/>Level:<x id='END_BOLD'/> 2 or higher(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_3_MODE=")<x id='START_BOLD'/>Level:<x id='END_BOLD'/> 3 or higher(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_4_MODE=")<x id='START_BOLD'/>Level:<x id='END_BOLD'/> 4 or higher(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_ACCELERATING_DECELERATING_SQUARE_SPIRAL_DESCRIPTION=")Let Ozobot perform a spiral just like an ice skater or diver. Make sure that Ozobot goes at the correct speed and reverses all its actions on the way back out of the maze.(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_ACCELERATING_DECELERATING_SQUARE_SPIRAL_TITLE=")Accelerating and Decelerating on a Square Spiral(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_COLOR_VISIT_COUNTS_DESCRIPTION=")In this challenge you will be programming Ozobot Bit to keep track of the number of times that it has traversed each of three paths \u2014 a red path, a green path, and a blue path.(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_COLOR_VISIT_COUNTS_TITLE=")Color Visit Counts(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_PROF_RICHARD_BORN_AUTHOR=")<x id='START_BOLD'/>Author:<x id='END_BOLD'/> Prof. Richard Born(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_RECTANGLE_WALK_DESCRIPTION=")Program Ozobot to walk in a rectangle. The challenge is to make Ozobot move and its LED light up at certain points during the walk.(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_RECTANGLE_WALK_TITLE=")Rectangle Walk(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_SKIP_UP_DESCRIPTION=")Find a way to let Ozobot skip lines and climb higher and higher towards the end intersection. Try to figure out the logic behind the different colors and shorten your program even more.(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_SKIP_UP_TITLE=")Skip Up(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_SLOT_CAR_RACE_TRACK_DESCRIPTION=")Slot car racing has been of interest to many for years and years. In this challenge you will be creating an ozoBlockly program that makes Ozobot Bit behave like a slot car. Create your program so that Ozobot will run five laps using the provided track.(?=") ==> 
+(?<=OZOBOT_HTML_CHALLENGE_SLOT_CAR_RACE_TRACK_TITLE=")Slot Car Race Track(?=") ==> 
+(?<=OZOBOT_HTML_CLOSE_BUTTON=")Close(?=") ==> 
+(?<=OZOBOT_HTML_CLOSE_CHALLENGES_BUTTON=")Close Challenges(?=") ==> 
+(?<=OZOBOT_HTML_CODING_BUTTON=")Code Preview(?=") ==> 
+(?<=OZOBOT_HTML_DEV_MODE_SETTINGS_TITLE=")Dev mode settings(?=") ==> 
+(?<=OZOBOT_HTML_DOWNLOAD_MAP_BUTTON=")Download&amp;nbsp;Map(?=") ==> 
+(?<=OZOBOT_HTML_DOWNLOAD_PROGRAM_AS_BINARY_BUTTON=")Download binary OzoBlockly program(?=") ==> 
+(?<=OZOBOT_HTML_DOWNLOAD_PROGRAM_AS_BINARY_DESCRIPTION=")You can download your OzoBlockly program as a binary file for Ozobot Evo.(?=") ==> 
+(?<=OZOBOT_HTML_DOWNLOAD_PROGRAM_AS_BINARY_TITLE=")Download your program as binary(?=") ==> 
+(?<=OZOBOT_HTML_EDITOR_SETTINGS_CHANGE_BACKGROUND_COLOR_BUTTON=")Background color(?=") ==> 
+(?<=OZOBOT_HTML_EDITOR_SETTINGS_CHANGE_BACKGROUND_COLOR_TITLE=")Change the background color(?=") ==> 
+(?<=OZOBOT_HTML_ENTER_SHARE_CODE_BUTTON=")Enter Share Code(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLES_BLOCKS_USED_TITLE=")Blocks used:(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLES_BUTTON=")Examples(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLES_CLOSE_BUTTON=")Close Examples(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLES_DIFULCITY_TITLE=")Difficulty:(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLES_TITLE=")Examples(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_1_LEVEL=")level 1(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_2_LEVEL=")level 2(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_3_LEVEL=")level 3(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_4_LEVEL=")level 4(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_5_LEVEL=")level 5(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_ALWAYS_EVEN_DESCRIPTION=")Change numbers to a nearby even number, or stay the same if already even.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_ALWAYS_EVEN_TITLE=")Always Even(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_AVOID_RED_DESCRIPTION=")Ozobot randomly navigates a maze and avoids entering red intersections.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_AVOID_RED_TITLE=")Avoid Red(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_ANIMATION_DESCRIPTION=")While stationary, Ozobot performs a continuous loop of LED color animations.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_ANIMATION_TITLE=")Color Animation(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_DASH_DESCRIPTION=")Get Evo to your color target 3 times before your opponent does!<x id='BREAK'/>2-Player Game, 1 Evo Required<x id='BREAK'/>Setup: Place one red and one blue game sticker on a white table or paper (about 1 foot apart).<x id='BREAK'/><x id='BREAK'/>Player 1: Activate Evo\u2019s back sensors to start gameplay. When Evo lights up red, use the front sensors to rotate and aim Evo at the red sticker.<x id='BREAK'/><x id='BREAK'/>Player 1 (cont.): Hold your hand behind Evo\u2019s back sensors to set the speed. Pull your hand away to launch. If you reach red, you\u2019ll earn a point.<x id='BREAK'/><x id='BREAK'/>Player 2: Your turn! Aim and launch Evo to the blue sticker.<x id='BREAK'/><x id='BREAK'/>How to win: Take turns until a player earns 3 points. Evo does a victory dance, beeps 3 times, and lights up in your color if you\u2019ve won!<x id='BREAK'/><x id='BREAK'/>OzoBlockly Hack: Customize Evo\u2019s victory dance, the number of players, and more.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_DASH_TITLE=")Color Dash(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_MATCH_DESCRIPTION=")Challenge: Try to match the color Evo shows you with its top light.<x id='BREAK'/><x id='BREAK'/>Using your fingers, experiment with the front sensors and rear right sensor. Evo\u2019s front lights will change color in response.<x id='BREAK'/><x id='BREAK'/>Evo lets you know when you\u2019ve got it right, then randomly picks a new color.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_MATCH_TITLE=")Color Match(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_QUEST_DESCRIPTION=")1-Player Game<x id='BREAK'/>Challenge: Control Evo\u2019s movement, using its proximity sensors, to collect all three colors!<x id='BREAK'/><x id='BREAK'/>Setup: You and Evo need paper and markers to play. Draw red, green, and blue spots.<x id='BREAK'/><x id='BREAK'/>Use your hands to nudge Evo to the red, blue, and green spots to get all three points.<x id='BREAK'/><x id='BREAK'/>If Evo seems confused, start over and add a black spot. Use black to calibrate, then nudge to the colors.<x id='BREAK'/><x id='BREAK'/>OzoBlockly Hack: Change Evo\u2019s speed, victory dance, and more.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_COLOR_QUEST_TITLE=")Color Quest(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_DIZZY_DESCRIPTION=")Ozobot is running around in circles - getting too dizzy in the end to continue.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_DIZZY_TITLE=")Dizzy(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_ESCAPE_DESCRIPTION=")See Ozobot escape the maze and skip lines to arrive at the blue line end.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_ESCAPE_TITLE=")Skip the Lines(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_ESCAPE_TRICK_DESCRIPTION=")Evo\u2019s known for being a little bit rebellious. Evo will sense your hand behind it, and try to evade you.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_ESCAPE_TRICK_TITLE=")Escape(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_EVO_DANCE_DESCRIPTION=")From turns and shimmies to more intricate steps, a virtual dance instructor calls out moves and Evo responds.<x id='BREAK'/>Consider dancing along. It makes Evo less self-conscious.<x id='BREAK'/><x id='BREAK'/>OzoBlockly Hack: Edit the program to teach Evo some new moves. Electro shuffle, anyone?<x id='BREAK'/>Life Hack: Take Evo\u2019s dance to the next level with a Unicorn skin.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_EVO_DANCE_TITLE=")Dance Lesson(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_EVO_DRIVES_DESCRIPTION=")Ozobot goes for a drive when he stops at a red light, speeds off, and is then stopped by a police. Ozobot is lucky and the police does not write a citation. Ozobot is relieved and continues driving happily.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_EVO_DRIVES_TITLE=")Evo Drives(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_FIND_COLORS_DESCRIPTION=")Ozobot has to stay inside the red boundary and look for the black square. When Ozobot travels over the green square, Ozobot changes the LED color, but continues on its path, bouncing off the red boundary in search for the black square.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_FIND_COLORS_TITLE=")Find the Colors(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_FOLLOW_DESCRIPTION=")For the ultimate bot-bonding experience, place your finger in front of Evo\u2019s front sensors and move it along the table. Evo will follow right behind!(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_FOLLOW_TITLE=")Follow(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_GET_SET_FIBONACCI_DESCRIPTION=")Learn how to set up an array, which is a table of set length that holds similar data, called elements, and reset the values. In this case, watch your bot act out the Fibonacci Sequence, a fun pattern in numbers.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_GET_SET_FIBONACCI_TITLE=")Get Set with Fibonacci(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_GUIDE_EVO_DESCRIPTION=")Make Evo react using your hands. Block the back sensors to nudge Evo forward, or the front sensors to push Evo back.<x id='BREAK'/><x id='BREAK'/>Try to \u201chug\u201d Evo with both hands for a surprise response!<x id='BREAK'/><x id='BREAK'/>OzoBlockly Hack: Change how Evo responds to your hand with the OzoBlockly editor.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_GUIDE_EVO_TITLE=")Energy Nudge(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_BEACON_DESCRIPTION=")Ozobot starts broadcasting a message with its IR transmitters. Load another robot with the IR Communication Receiver Example to test this. The Advanced example shows how to turn off emitters selectively by a button.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_BEACON_TITLE=")IR Communication Beacon(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_DIALOGUE_DESCRIPTION=")This is a functional demo of a dialogue between two robots. The program is to be loaded to two robots. The robots are standing still until they are placed in close proximity. When they detect each other, they turn to each other and start a trivial small talk. After there is nothing more to say, each robot moves away and then turns itself off.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_DIALOGUE_TITLE=")IR Communication Dialogue(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_GATEKEEPER_DESCRIPTION=")Transform one from your Evos into a mean gatekeeper who stops anyone who wants to get past him. The other Evo (hero) has to search a maze to find the secret formula to conquer the gatekeeper. The gatekeeper waits for a specific IR message on its front sensors. The hero starts sending it when it sees green line. (You need two Evos for this example. Load the Hero program to one of them, and the Gatekeeper program to the other.)(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_GATEKEEPER_TITLE=")Gatekeeper(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_RECEIVER_DESCRIPTION=")Ozobot listens to an IR message, says the data and lights up green to indicate which sensor received the message. When signal from other robot is lost, the LED lights up in red. Load another robot with the IR Communication Beacon Example to test this.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_IRCOMM_RECEIVER_TITLE=")IR Communication Receiver(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_JUMP_COUNT_DESCRIPTION=")When Ozobot encounters a line-end, it 'jumps' and catches a line ahead. After performing 4 jumps, Ozobot stops.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_JUMP_COUNT_TITLE=")Jump Count(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_LIST_SERVED_DESCRIPTION=")Move Evo by placing your hand or an object near its rear proximity sensors. After Evo sees something in front (like your hand), it will retrace its movements backwards. This program uses a List, which is a way to store data like a memory bank. You can access any 'element' in the list after it's been created.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_LIST_SERVED_TITLE=")List, Served(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_LOADING_ANIMATION_DESCRIPTION=")Use the Light Effects blocks to create a 'loading' animation on the Evo (in any color), which repeats forever. Turn on each light (left to right) until each light has been lit. Then, shut them all off, and the animation should begin again.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_LOADING_ANIMATION_TITLE=")Loading Animation(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_MUSIC_DESCRIPTION=")Introducing the coolest new pop duo: You and Evo! Tap Evo\u2019s 4 sensors to play different music notes. Singing along is optional.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_MUSIC_MAP_SIMPLE_DESCRIPTION=")This program is designed for the colored map attached to this example. Evo will play the first 16 bars of Frere Jacques, starting from the red section in the bottom left corner, and traveling clockwise. You can change the notes in the program and color your own map, or create a completely new track to make a song. Make sure you calibrate to paper before using this program. As well, be sure to test any new colors you use to make sure Evo can see them. Try cyan, magenta and chartreuse (a dark yellow).(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_MUSIC_MAP_SIMPLE_TITLE=")Frere Jacques(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_MUSIC_TITLE=")Music(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_NOT_RANDOM_WALK_DESCRIPTION=")This example is like the 'Random Walk' example in Mode 4, but this time the movements aren't so random! That's because the 'random number generator seed' causes the same sequence of random numbers to appear, depending on the range of integers given. Run this program multiple times to see that you will get the same sequence of actions every time. Change the seed number to get a new sequence of actions.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_NOT_RANDOM_WALK_TITLE=")Not-So-Random Walk(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_PARKING_DESCRIPTION=")Ozobot goes from traffic light to traffic light, trying to find a parking spot. When one is found, Ozobot does a parking maneuver.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_PARKING_TITLE=")Parking(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_PRESS_ADVENTURE_DESCRIPTION=")Press the button to have Evo play different animations. Try 1 press, two, or three. You have 2 seconds to input your choice! Play any animation at any time.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_PRESS_ADVENTURE_TITLE=")Press for Adventure(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_RACER_DASH_DESCRIPTION=")Get Racer to your color target 3 times before your opponent does!<x id='BREAK'/>2-Player Game, 1 Evo Required<x id='BREAK'/>Setup: Place one red and one blue game sticker on a white table or paper (about 1 foot apart).<x id='BREAK'/><x id='BREAK'/>Player 1: Activate Racer\u2019s back sensors to start gameplay. When it lights up red, use the front sensors to rotate and aim Racer at the red sticker.<x id='BREAK'/><x id='BREAK'/>Player 1 (cont.): Hold your hand behind Racer\u2019s back sensors to set the speed. Pull your hand away to launch. If you reach red, you\u2019ll earn a point.<x id='BREAK'/><x id='BREAK'/>Player 2: Your turn! Aim and launch Racer to the blue sticker.<x id='BREAK'/><x id='BREAK'/>How to win: Take turns until a player earns 3 points. Racer does a victory dance, honks 3 times, and lights up in your color if you\u2019ve won!<x id='BREAK'/><x id='BREAK'/>OzoBlockly Hack: Customize Racer\u2019s victory dance, number of players, and more!(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_RACER_DASH_TITLE=")Racer Dash(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_RANDOM_WALK_DESCRIPTION=")Ozobot moves and changes directions abruptly while shining random LED colors. This program runs continuously.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_RANDOM_WALK_TITLE=")Random Walk(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_REMIX_DISCO_DESCRIPTION=")Learn how the LEDs and colors correspond to specific integers by seeing how the 'disco' light animation is remixed to remove the top light (which is represented by the number 1, or any odd numbers in the 'mask').(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_REMIX_DISCO_TITLE=")Remix to Disco(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_REV_UP_DESCRIPTION=")Connect your thumbs and index fingers in a diamond shape around Evo to \u201crev up\u201d. Pull your hands away when Evo\u2019s facing the direction you want it to launch.<x id='BREAK'/><x id='BREAK'/>The more you let Evo rev up, the faster and farther it will go. But be careful! If you don\u2019t release in time, Evo will redline.<x id='BREAK'/><x id='BREAK'/>OzoBlockly Hack: Use Rev Up for games by modifying the code and using color targets drawn on paper.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_REV_UP_TITLE=")Rev Up(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_RUNWAY_SNOW_DESCRIPTION=")Clear some space, \u2018cause this little bot is a big show off. Evo struts, stops, and stares, then works its way back up the runway.<x id='BREAK'/>Highly recommended anytime Evo\u2019s got a new outfit on.<x id='BREAK'/><x id='BREAK'/>OzoBlockly Hack: Amp up Evo\u2019s runway routine in the OzoBlockly editor with light effects, dance moves, and more.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_RUNWAY_SNOW_TITLE=")Fashion Runway(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SEE_ALSO=")See Also(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SIMPLE_MAZE_SEARCH_DESCRIPTION=")Ozobot systematically searches a 'standard' maze (without loops) using a simple right hand rule. Ozobot lights up in different colors depending on which direction is chosen. This program runs continuously.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SIMPLE_MAZE_SEARCH_SEE_ALSO_1=")Wikipedia: <x id='START_LINK'/>Maze Solving<x id='END_LINK'/>(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SIMPLE_MAZE_SEARCH_SEE_ALSO_1_URL=")https://en.wikipedia.org/wiki/Maze_solving_algorithm(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SIMPLE_MAZE_SEARCH_TITLE=")Simple Maze Search(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SKATING_DESCRIPTION=")Ozobot skates around the ice rink showing off moves and light effects.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SKATING_TITLE=")Skating(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SQUARE_WALK_DESCRIPTION=")Ozobot traces a square shape and shines a green light while moving straight and a red light while rotating right.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_SQUARE_WALK_TITLE=")Square Walk(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_TREE_TRAVERSAL_ALGORITHM_DESCRIPTION=")Ozobot demonstrates a Depth First traversal while navigating a binary tree maze. Start Ozobot at the root of the tree and it will methodically explore all of the tree branches and return to the starting point. Then Ozobot will blink the count of the number of leaves it visited while traversing the maze.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_TREE_TRAVERSAL_ALGORITHM_SEE_ALSO_1=")Wikipedia: <x id='START_LINK'/>Depth First Search<x id='END_LINK'/>(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_TREE_TRAVERSAL_ALGORITHM_SEE_ALSO_1_URL=")https://en.wikipedia.org/wiki/Depth-first_search(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_TREE_TRAVERSAL_ALGORITHM_TITLE=")Tree Traversal Algorithm (DFS)(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_UNICORN_KNOWS_DESCRIPTION=")Ask a Yes/No question, then place your hand behind Unicorn to start the magic.<x id='BREAK'/>Unicorn will reach into the future to find an answer. Listen up!<x id='BREAK'/><x id='BREAK'/>Stuck? Start here:<x id='BREAK'/>Do aliens like pizza?<x id='BREAK'/>Will my invention make me a bajillionaire?<x id='BREAK'/>Is purple your favorite color?<x id='BREAK'/><x id='BREAK'/>Getting too many No\u2019s? Hack your Unicorn\u2019s answers in OzoBlockly.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_UNICORN_KNOWS_TITLE=")Unicorn Knows All(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_VICTORY_LAP_DESCRIPTION=")Ozobot just won a race and is now doing a victory lap, greeting fans and celebrating along the way.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_VICTORY_LAP_TITLE=")Victory Lap(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_WAVY_MOVE_DESCRIPTION=")Ozobot performs a wavy motion maneuver four times and stops.(?=") ==> 
+(?<=OZOBOT_HTML_EXAMPLE_WAVY_MOVE_TITLE=")Wavy Move(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_CUSTOM_DESCRIPTION=")You have set a <x id='START_STRONG'/>Custom<x id='END_STRONG'/> Flash Loading setting on an advanced panel. Choose any of the preset options to override any current Flash Loading settings.(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_FAST=")Fast(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_FAST_DESCRIPTION=")<x id='START_STRONG'/>Fast<x id='END_STRONG'/> loads your program as quick as possible. This is a good setting if you have a fast processor and screen.(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_MODE_CANVAS_OPTION=")2D canvas context(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_MODE_CSS_OPTION=")CSS styles(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_MODE_LABEL=")Flashing mode: (?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_MODE_WEBGL_OPTION=")WebGL canvas context(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_NORMAL=")Normal(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_NORMAL_DESCRIPTION=")<x id='START_STRONG'/>Normal<x id='END_STRONG'/> is the default setting. Try other speeds if you need to improve your flashing experience.(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_SLOW=")Slow(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_SLOW_DESCRIPTION=")<x id='START_STRONG'/>Slow<x id='END_STRONG'/> is the most reliable setting. Your program should load on most devices, but it will take the longest with this setting. Use Slow if your robot often flickers red while loading, and other troubleshooting attempts did not fix the issue.(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_SPEED_DESCRIPTION=")This setting affects loading programs to Bit and Evo through Flash Loading (optical communication). You can slow down loading if it fails often, or speed it up if loading takes too long and you're confident your device can keep up.(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_SPEED_TITLE=")Flashing speed(?=") ==> 
+(?<=OZOBOT_HTML_FLASHING_TAB_TITLE=")Flashing(?=") ==> 
+(?<=OZOBOT_HTML_FORGOT_PASSWORD_BUTTON=")Forgot your password?(?=") ==> 
+(?<=OZOBOT_HTML_GENERAL_TAB_TITLE=")General(?=") ==> 
+(?<=OZOBOT_HTML_HELP_BUTTON=")Help(?=") ==> 
+(?<=OZOBOT_HTML_HELP_CLOSE_BUTTON=")Close Help(?=") ==> 
+(?<=OZOBOT_HTML_HELP_TITLE=")Help(?=") ==> 
+(?<=OZOBOT_HTML_INFO_PASSWORD_RESET=")The password reset link will be sent to your registered email.(?=") ==> 
+(?<=OZOBOT_HTML_INTERVAL_BETWEEN_FRAMES_LABEL=")Interval between frames [ms]: (?=") ==> 
+(?<=OZOBOT_HTML_JAVASCRIPT_BUTTON=")JavaScript(?=") ==> 
+(?<=OZOBOT_HTML_JAVASCRIPT_DESCRIPTION=")Real-time preview of your OzoBlockly program using JS syntax.(?=") ==> 
+(?<=OZOBOT_HTML_JAVASCRIPT_TITLE=")JavaScript Preview(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_CHINESE=")Chinese(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_CZECH=")Czech(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_DUTCH=")Dutch(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_ENGLISH=")English(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_FRENCH=")French(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_JAPANESE_KANA=")Japanese - Kana(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_JAPANESE_REGULAR=")Japanese(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_KOREAN=")Korean(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_POLISH=")Polish(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_RUSSIAN=")Russian(?=") ==> 
+(?<=OZOBOT_HTML_LANGUAGE_SELECT_TITLE=")Language(?=") ==> 
+(?<=OZOBOT_HTML_LAUNCH_METABOT=")LAUNCH METABOT(?=") ==> 
+(?<=OZOBOT_HTML_LAUNCH_METABOT_DONE=")Done(?=") ==> 
+(?<=OZOBOT_HTML_LEVEL_ADVANCED_TITLE=")4. Advanced(?=") ==> 4. Gewandte
+(?<=OZOBOT_HTML_LEVEL_BEGINNER_TITLE=")2. Beginner(?=") ==> 2. Anfängerin
+(?<=OZOBOT_HTML_LEVEL_INTERMEDIATE_TITLE=")3. Intermediate(?=") ==> 3. Kompetente
+(?<=OZOBOT_HTML_LEVEL_MASTER_TITLE=")5. Master(?=") ==> 5. Expertin
+(?<=OZOBOT_HTML_LEVEL_NOVICE_TITLE=")1. Pre-Reader(?=") ==> 1. Neuling
+(?<=OZOBOT_HTML_LOAD_ADVANCED_EXAMPLE_BUTTON=")Open Advanced Example(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_EXAMPLE_ALTERNATIVE_BUTTON=")Load Alternative Example(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_EXAMPLE_BUTTON=")Open Example(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_EXAMPLE_GATEKEEPER_BUTTON=")Load Gatekeeper(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_EXAMPLE_HERO_BUTTON=")Load Hero(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_BIT_BUTTON=")Load Bit(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_BIT_LOAD_BUTTON=")Load Program(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_BIT_NOT_CONNECTED=")Bit+ Not Connected(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_BIT_STOP_BUTTON=")Stop Loading(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_BUTTON=")Load Evo(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_CONNECT_BUTTON=")Connect(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_DISCONNECT_BUTTON=")Disconnect(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_LOADING_BUTTON=")Program is loading...(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_NOT_CONNECTED=")Evo Not Connected(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_RUNNING_BUTTON=")Program is running...(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_RUN_BUTTON=")Run Program(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_STOPPING_BUTTON=")Stopping...(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_STOP_BUTTON=")Stop Program(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_VIA_APP_TITLE=")App(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_EVO_VIA_FLASHING_TITLE=")Flashing(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_OZOBOT_WITH_FLASHING_BUTTON=")Flashing(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_REGISTERS_BUTTON=")Load Registers(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_SLOT_BUTTON=")Open(?=") ==> 
+(?<=OZOBOT_HTML_LOAD_YOUR_OZOBOT_TITLE_ABOVE_LOAD_BUTTONS=")Load your(?=") ==> 
+(?<=OZOBOT_HTML_LOG_OUT_BUTTON=")Log Out(?=") ==> 
+(?<=OZOBOT_HTML_MEMORY_SIZE_DESCRIPTION=")Ozobot BIT has 1040 bytes. Ozobot EVO 2048 bytes.(?=") ==> 
+(?<=OZOBOT_HTML_MEMORY_SIZE_LABEL=")Memory size [bytes]: (?=") ==> 
+(?<=OZOBOT_HTML_MEMORY_SIZE_TITLE=")Configure memory size(?=") ==> 
+(?<=OZOBOT_HTML_MEMORY_TAB_TITLE=")Memory(?=") ==> 
+(?<=OZOBOT_HTML_NAME_TEXT=")Username(?=") ==> 
+(?<=OZOBOT_HTML_NEW_PROGRAM_BUTTON=")New Program(?=") ==> 
+(?<=OZOBOT_HTML_OPEN_PROGRAM_BUTTON=")Open Program(?=") ==> 
+(?<=OZOBOT_HTML_OPEN_PROGRAM_TITLE=")Open Program(?=") ==> 
+(?<=OZOBOT_HTML_Overwrite_SLOT_BUTTON=")Overwrite(?=") ==> 
+(?<=OZOBOT_HTML_PERSISTENT_REGISTERS_TITLE=")Persistent registers(?=") ==> 
+(?<=OZOBOT_HTML_PRESS_ACTIVATE_ICON=")Press to<x id='BREAK'/>Activate(?=") ==> 
+(?<=OZOBOT_HTML_PROFILE_PHOTO_TEXT=")Profile photo(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_DESCRIPTION=")Programs: buildable sequences for your bot.(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_EDITED=")Edited(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_DESCRIPTION=")Here you can see the composition of Bit or Evo's memory when the program is loaded onto Bit or Evo. By default, stack size is maximized to not leave any memory unusable.(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_FREE_LEGEND=")Free(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_GLOBALS_LEGEND=")Globals(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_HEAP_LEGEND=")Heap(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_PROGRAM_LEGEND=")Program(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_STACK_LEGEND=")Stack(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_TITLE=")Program info(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_INFO_USED_LEGEND=")Used(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_LOADING_OPTIONS_DESCRIPTION=")Depending on your device, you could speed up Flash Loading your program by increasing the optical communication speed or by changing the Flashing mode, below. Color flashing is synchronized automatically with the refresh rate of your device (usually 60Hz), which means timing cannot be more precise than your hardware limits (for 60Hz it is ~16.6ms).(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_LOADING_OPTIONS_TITLE=")Program loading options(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_SPACE_DESCRIPTION=")This bar shows how much space your OzoBlockly program is using. The more blocks you add, the more space you\u2019ll use. Keep the bar under 100% to ensure successful transfer of the program to your Ozobot.(?=") ==> 
+(?<=OZOBOT_HTML_PROGRAM_SPACE_TITLE=")Program Space(?=") ==> 
+(?<=OZOBOT_HTML_PYTHON_COMPATIBILITY_SWITCH=")Compatibility Mode(?=") ==> 
+(?<=OZOBOT_HTML_PYTHON_DESCRIPTION=")Real-time preview of your OzoBlockly program using Python syntax.(?=") ==> 
+(?<=OZOBOT_HTML_PYTHON_TITLE=")Python Preview(?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_AUTO_HELP_BUTTON=")Auto-Help:(?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_AUTO_HELP_DESCRIPTION=")Automatic reference when blocks are selected.(?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_BUTTON=")Glossary(?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_CLOSE_BUTTON=")Close Glossary(?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_LEVEL_ADVANCED_MODE=")Advanced Mode (?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_LEVEL_BEGINNER_MODE=")Beginner Mode (?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_LEVEL_INTERMEDIATE_MODE=")Intermediate Mode (?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_LEVEL_MASTER_MODE=")Master Mode (?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_LEVEL_NOVICE_MODE=")Pre-Reader Mode (?=") ==> 
+(?<=OZOBOT_HTML_REFERENCE_TITLE=")Glossary(?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_0_LABEL=")Register 0: (?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_1_LABEL=")Register 1: (?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_2_LABEL=")Register 2: (?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_3_LABEL=")Register 3: (?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_4_LABEL=")Register 4: (?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_5_LABEL=")Register 5: (?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_6_LABEL=")Register 6: (?=") ==> 
+(?<=OZOBOT_HTML_REGISTER_7_LABEL=")Register 7: (?=") ==> 
+(?<=OZOBOT_HTML_INST426715866513549169=")Sign up!(?=") ==> 
+(?<=OZOBOT_HTML_INST3923637183690950141=")Need an Account?(?=") ==> 
+(?<=OZOBOT_HTML_RESET_PASSWORD_TEXT=")Reset password(?=") ==> 
+(?<=OZOBOT_HTML_RESET_SETTINGS_BUTTON=")Reset Editor Settings(?=") ==> 
+(?<=OZOBOT_HTML_SAVE_AS_PROGRAM_TITLE=")Save As(?=") ==> 
+(?<=OZOBOT_HTML_SAVE_PROGRAM_AS_BUTTON=")Save As(?=") ==> 
+(?<=OZOBOT_HTML_SAVE_PROGRAM_BUTTON=")Save(?=") ==> 
+(?<=OZOBOT_HTML_SAVE_SLOT_BUTTON=")Save(?=") ==> 
+(?<=OZOBOT_HTML_SEARCH_PLACEHOLDER=")Search Glossary(?=") ==> 
+(?<=OZOBOT_HTML_SETTINGS_BUTTON=")Settings(?=") ==> 
+(?<=OZOBOT_HTML_SHARE_PROGRAM_BUTTON=")Share(?=") ==> 
+(?<=OZOBOT_HTML_SHOW_INSTRUCTIONS_BUTTON=")Show Instructions(?=") ==> 
+(?<=OZOBOT_HTML_SIGN_IN_PASSWORD_FIELD=")Password(?=") ==> 
+(?<=OZOBOT_HTML_SIGN_IN_TEXT=")Sign in(?=") ==> 
+(?<=OZOBOT_HTML_SIGN_IN_USERNAME_FIELD=")Username(?=") ==> 
+(?<=OZOBOT_HTML_STACK_SIZE_LABEL=")Stack size [bytes]: (?=") ==> 
+(?<=OZOBOT_HTML_STACK_SIZE_OVERRIDE_DESCRIPTION=")By default, stack size is maximized so to not leave any memory unusable. In case the List is used, this maximization will leave 127 bytes free to be used by the List. Here you can disable this behavior and set exactly how much space the stack should occupy, and how much space should stay free for the List. Changing the stack size does not increase the max number of elements a List can have (which is 127).<x id='START_BREAK'/>Hint: recursive programs tend to use much more stack than programs with loops.(?=") ==> 
+(?<=OZOBOT_HTML_STACK_SIZE_OVERRIDE_TITLE=")Stack size override(?=") ==> 
+(?<=OZOBOT_HTML_START_HERE=")START HERE(?=") ==> 
+(?<=OZOBOT_HTML_THIS_DEVICE_BUTTON=")On This Device(?=") ==> 
+(?<=OZOBOT_HTML_TOOLTIP_NEW=")New!(?=") ==> 
+(?<=OZOBOT_HTML_UPLOAD_PROGRAM_AS_BINARY_TO_FIREBASE_BUTTON=")Download the OzoBlockly program to the robot via the Ozobot Evo App(?=") ==> 
+(?<=OZOBOT_HTML_USB_LOADING_BIT_CONNECTED_TEXT=")Bit+ is connected(?=") ==> 
+(?<=OZOBOT_HTML_USB_LOADING_BIT_INSTRUCTIONS_CONNECT_TEXT=")<x id='START_BOLD'/>1. Click 'Connect'<x id='END_BOLD'/>(?=") ==> 
+(?<=OZOBOT_HTML_USB_LOADING_BIT_INSTRUCTIONS_PLUGIN_TEXT=")<x id='START_BOLD'/>2. Connect Bit+ through USB cable and click 'Pair'<x id='END_BOLD'/> in the window that opened in your browser.(?=") ==> 
+(?<=OZOBOT_HTML_USB_LOADING_HEADER=")Load Your Program(?=") ==> 
+(?<=OZOBOT_HTML_USERNAMES_PROGRAMS_BUTTON=")%1\u2019s Programs(?=") ==> 
+(?<=OZOBOT_HTML_USER_BUTTON=")Programs(?=") ==> 
+(?<=OZOBOT_HTML_USER_LEVEL=")Level <x id='LEVEL_NUMBER'/>(?=") ==> 
+(?<=OZOBOT_HTML_USER_PROFILE_TITLE=")Programs(?=") ==> 
+(?<=OZOBOT_HTML_USER_SETTINGS_BUTTON=")Settings(?=") ==> 
+(?<=OZOBOT_HTML_USER_SETTINGS_TITLE=")User settings(?=") ==> 
+(?<=OZOBOT_HTML_VIEW_MAP_BUTTON=")View Map(?=") ==> 
+(?<=OZOBOT_LIGHT_EFFECTS_CHRISTMAS_TREE_TITLE=")christmas tree(?=") ==> Weihnachtsbaum
+(?<=OZOBOT_LIGHT_EFFECTS_DISCO_TITLE=")disco(?=") ==> Disco
+(?<=OZOBOT_LIGHT_EFFECTS_FIREWORK_TITLE=")firework(?=") ==> Feuerwerk
+(?<=OZOBOT_LIGHT_EFFECTS_POLICE_CAR_LIGHTS_TITLE=")police car lights(?=") ==> Polizeiauto
+(?<=OZOBOT_LIGHT_EFFECTS_RAINBOW_TITLE=")rainbow(?=") ==> Regenbogen
+(?<=OZOBOT_LIGHT_EFFECTS_SET_LED_COLOR_TITLE=")set top light color(?=") ==> Oberes Licht ändern auf
+(?<=OZOBOT_LIGHT_EFFECTS_SET_LIGHT_COLOR_TITLE=")set top light color(?=") ==> Oberes Licht ändern auf
+(?<=OZOBOT_LIGHT_EFFECTS_SET_RANDOM_LIGHT_COLOR_TITLE=")set top light color randomly(?=") ==> 
+(?<=OZOBOT_LIGHT_EFFECTS_SET_WHITE_LED_TITLE=")set white LED intensity(?=") ==> 
+(?<=OZOBOT_LIGHT_EFFECTS_TRAFFIC_LIGHTS_TITLE=")traffic lights(?=") ==> Ampel
+(?<=OZOBOT_LIGHT_EFFECTS_TURN_OFF_LEDS_TITLE=")turn top light off(?=") ==> Schalte oberes Licht aus
+(?<=OZOBOT_LINE_NAVIGATION_CAN_LINE_FOLLOW_TITLE=")can line follow(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_OPERATOR_BACK=")back(?=") ==> zurück
+(?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_OPERATOR_STRAIGHT=")straight(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_CHOOSE_WAY_AT_INTERSECTION_TITLE=")pick direction(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_LAST_INTERSECTION_DECISION_TITLE=")get last intersection decision (deprecated)(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_LAST_INTERSECTION_TYPE_TITLE=")get last intersection type(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_LINE_FOLLOWING_SPEED_TITLE=")get line-following speed(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_LINE_POSITION_TITLE=")get line position(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_LINE_POSITION_TOOLTIP=")returns argument -128 to 127(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_LINE_SENSORS_TITLE=")get line sensors(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_LINE_WIDTH_TITLE=")get line width(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GET_NEXT_INTERSECTION_DECISION_TITLE=")get next intersection decision(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_GO_TO_NEXT_INTERSECTION_TITLE=")follow line to next intersection or line end(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_LINE_END=")line end(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_LEFT=")way left(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_RIGHT=")way right(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_OPERATOR_WAY_STRAIGHT=")way straight(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_CHECK_THERE_IS_TITLE=")there is(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_COLOR_TITLE=")intersection/line-end color(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_INTERSECTION_DIRECTION_TITLE=")intersection / direction(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_LINE_FOLLOWING_TITLE=")set line following (deprecated)(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_NUMBER_DETECTED_LINES_TITLE=")number of detected lines(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_RESET_LINE_FOLLOWING_TITLE=")reset line following (deprecated)(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_SET_DECISION_AT_INTERSECTION_TITLE=")set decision at intersection(?=") ==> 
+(?<=OZOBOT_LINE_NAVIGATION_SET_LINE_FOLLOWING_SPEED_TITLE=")set line-following speed(?=") ==> 
+(?<=OZOBOT_LIST_APPEND_VALUE_TITLE=")append value(?=") ==> 
+(?<=OZOBOT_LIST_APPEND_VALUE_TO_END_OF=")to the end of List(?=") ==> 
+(?<=OZOBOT_LIST_GET_INDEX_FROM_LIST=")from List(?=") ==> 
+(?<=OZOBOT_LIST_GET_INDEX_TITLE=")get element(?=") ==> 
+(?<=OZOBOT_LIST_LENGTH_OF_TITLE=")length of List(?=") ==> 
+(?<=OZOBOT_LIST_POP_TITLE=")get last element and remove it from List(?=") ==> 
+(?<=OZOBOT_LIST_REMOVE_FROM_LIST=")from List(?=") ==> 
+(?<=OZOBOT_LIST_REMOVE_TITLE=")remove element at index(?=") ==> 
+(?<=OZOBOT_LIST_SET_BROADCAST_MESSAGE_TO_VALUE=")to value(?=") ==> 
+(?<=OZOBOT_LIST_SET_INDEX_SET_ELEMENT=")set element(?=") ==> 
+(?<=OZOBOT_LIST_SET_INDEX_TITLE=")in List(?=") ==> 
+(?<=OZOBOT_LIST_SET_INDEX_TO_VALUE=")to value(?=") ==> 
+(?<=OZOBOT_LOADING_CANCEL=")Cancel(?=") ==> 
+(?<=OZOBOT_LOAD_OZOBOT_BIT_ROBOT_DISCONNECTED=")Bit disconnected.(?=") ==> 
+(?<=OZOBOT_LOAD_OZOBOT_EVO_BATTERY_INSUFFICIENT=")Your robot\u2019s battery is running low. Please connect to a charger.(?=") ==> 
+(?<=OZOBOT_LOAD_OZOBOT_EVO_BATTERY_INSUFFICIENT_UPDATE=")Warning: Your robot is not fully charged. Please connect to a charger while updating.(?=") ==> 
+(?<=OZOBOT_LOAD_OZOBOT_EVO_CONNECTION_UNSUCCESSFUL=")Connection failed.(?=") ==> 
+(?<=OZOBOT_LOAD_OZOBOT_EVO_OLD_FIRMWARE=")Your robot needs to be updated before attempting this action.(?=") ==> 
+(?<=OZOBOT_LOAD_OZOBOT_EVO_ROBOT_DISCONNECTED=")Evo disconnected.(?=") ==> 
+(?<=OZOBOT_LOAD_OZOBOT_EVO_UP_TO_DATE=")Robot is up to date.(?=") ==> 
+(?<=OZOBOT_LOGIC_IF_INTERSECTION_COLOR_IS_TITLE=")if intersection/line-end color is(?=") ==> 
+(?<=OZOBOT_LOGIC_IF_INTERSECTION_IF_THERE_IS_TITLE=")if there is(?=") ==> 
+(?<=OZOBOT_LOGIC_IF_SURFACE_COLOR_IF_SURFACE_COLOR_IS_TITLE=")if surface color is(?=") ==> 
+(?<=OZOBOT_LOOPS_BREAK_OUT_TITLE=")break out of loop(?=") ==> 
+(?<=OZOBOT_LOOPS_REPEAT_FOREVER_TITLE=")repeat forever(?=") ==> Wiederhole
+(?<=OZOBOT_MATH_BITWISE_OPERATOR=")bitwise(?=") ==> 
+(?<=OZOBOT_MATH_BITWISE_OPERATOR_SHIFT_LEFT=")shift LEFT(?=") ==> 
+(?<=OZOBOT_MATH_BITWISE_OPERATOR_SHIFT_RIGHT=")shift RIGHT(?=") ==> 
+(?<=OZOBOT_MATH_SET_INTEGER_OVERFLOW_TITLE=")protect arithmetic overflows/underflows(?=") ==> 
+(?<=OZOBOT_MATH_SET_RND_GENERATOR_SEED_TITLE=")set random number generator seed(?=") ==> 
+(?<=OZOBOT_MATH_SINGLE_OPERATOR_REVERSE_SIGN=")reverse sign(?=") ==> 
+(?<=OZOBOT_MENU_BUTTON=")Menu(?=") ==> 
+(?<=OZOBOT_METABOT_SCAN_QR_CODE=")Scan QR code with a tablet or smartphone.(?=") ==> 
+(?<=OZOBOT_MOVEMENT_BIG_CIRCLE_TITLE=")big circle(?=") ==> Großer Kreis
+(?<=OZOBOT_MOVEMENT_DISTANCE_OPERATOR_STEP=")step(?=") ==> Schritt
+(?<=OZOBOT_MOVEMENT_DISTANCE_OPERATOR_STEPS=")steps(?=") ==> Schritte
+(?<=OZOBOT_MOVEMENT_DISTANCE_OPERATOR_STEPS_FEW=")steps(?=") ==> Schritte
+(?<=OZOBOT_MOVEMENT_DISTANCE_TITLE=")distance(?=") ==> Strecke
+(?<=OZOBOT_MOVEMENT_GAME_OVER_ANIMATION_TITLE=")game over animation(?=") ==> 
+(?<=OZOBOT_MOVEMENT_GAME_WIN_ANIMATION_TITLE=")game win animation(?=") ==> 
+(?<=OZOBOT_MOVEMENT_GET_INTERSECTION_COLOR_TITLE=")get intersection/line-end color(?=") ==> 
+(?<=OZOBOT_MOVEMENT_GET_SURFACE_COLOR_TITLE=")get surface color(?=") ==> 
+(?<=OZOBOT_MOVEMENT_LINE_FOLLOWING_SPEED_TITLE=")set line-following speed to(?=") ==> 
+(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_DROPDOWN_TITLE=")move forward at(?=") ==> 
+(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_DROPDOWN_UNIT=") speed until line is found, and then follow the line(?=") ==> 
+(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_VALUE_TITLE=")move forward at speed(?=") ==> 
+(?<=OZOBOT_MOVEMENT_MOVE_FORWARD_AT_SPEED_VALUE_UNIT=")mm/s until line is found, and then follow the line(?=") ==> 
+(?<=OZOBOT_MOVEMENT_MOVE_OPERATOR_BACKWARD=")backward(?=") ==> rückwärts
+(?<=OZOBOT_MOVEMENT_MOVE_OPERATOR_FORWARD=")forward(?=") ==> vorwärts
+(?<=OZOBOT_MOVEMENT_MOVE_TITLE=")move(?=") ==> Bewege dich
+(?<=OZOBOT_MOVEMENT_READ_COLOUR_SENSOR_OPERATOR_BLUE=")channel_blue(?=") ==> 
+(?<=OZOBOT_MOVEMENT_READ_COLOUR_SENSOR_OPERATOR_GREEN=")channel_green(?=") ==> 
+(?<=OZOBOT_MOVEMENT_READ_COLOUR_SENSOR_OPERATOR_RED=")channel_red(?=") ==> 
+(?<=OZOBOT_MOVEMENT_READ_COLOUR_SENSOR_TITLE=")read color sensor(?=") ==> 
+(?<=OZOBOT_MOVEMENT_ROTATE_OPERATOR_LEFT=")left(?=") ==> nach links
+(?<=OZOBOT_MOVEMENT_ROTATE_OPERATOR_RIGHT=")right(?=") ==> nach rechts
+(?<=OZOBOT_MOVEMENT_ROTATE_OPERATOR_SLIGHT_LEFT=")slight left(?=") ==> leicht nach links
+(?<=OZOBOT_MOVEMENT_ROTATE_OPERATOR_SLIGHT_RIGHT=")slight right(?=") ==> leicht nach rechts
+(?<=OZOBOT_MOVEMENT_ROTATE_OPERATOR_U_TURN_LEFT=")u-turn left(?=") ==> nach links umdrehen
+(?<=OZOBOT_MOVEMENT_ROTATE_OPERATOR_U_TURN_RIGHT=")u-turn right(?=") ==> nach rechts umdrehen
+(?<=OZOBOT_MOVEMENT_ROTATE_TITLE=")rotate(?=") ==> Drehe dich
+(?<=OZOBOT_MOVEMENT_SECONDS_UNIT=")seconds(?=") ==> Sekunden
+(?<=OZOBOT_MOVEMENT_SECONDS_UNIT_FEW=")seconds(?=") ==> Sekunden
+(?<=OZOBOT_MOVEMENT_SECOND_UNIT=")second(?=") ==> Sekunde
+(?<=OZOBOT_MOVEMENT_SET_WHEEL_SPEED_MULTIPLIER_DROPDOWN=")multiplier K =(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SET_WHEEL_SPEED_MULTIPLIER_FIELD=")multiplier K = 1/10\u00d7(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SET_WHEEL_SPEED_TITLE=")set wheel speeds(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SET_WHEEL_SPEED_UNIT_LEFT_MMPS_TIMES_MULTIPLIER=")left (mm/s) K \u00d7(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SET_WHEEL_SPEED_UNIT_LEFT_MMS=")left (mm/s)(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SET_WHEEL_SPEED_UNIT_RIGHT_MMPS_TIMES_MULTIPLIER=")right (mm/s) K \u00d7(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SET_WHEEL_SPEED_UNIT_RIGHT_MMS=")right (mm/s)(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SKATE_TITLE=")skate(?=") ==> Skate
+(?<=OZOBOT_MOVEMENT_SMALL_CIRCLE_TITLE=")small circle(?=") ==> Kleiner Kreis
+(?<=OZOBOT_MOVEMENT_SPEED_OPERATOR_FAST=")fast(?=") ==> schnell
+(?<=OZOBOT_MOVEMENT_SPEED_OPERATOR_MEDIUM=")medium(?=") ==> mittel
+(?<=OZOBOT_MOVEMENT_SPEED_OPERATOR_SLOW=")slow(?=") ==> langsam
+(?<=OZOBOT_MOVEMENT_SPEED_OPERATOR_VERY_FAST=")very fast(?=") ==> sehr schnell
+(?<=OZOBOT_MOVEMENT_SPEED_TITLE=")speed(?=") ==> Geschwindigkeit
+(?<=OZOBOT_MOVEMENT_SPIN_TITLE=")spin(?=") ==> Kreisle
+(?<=OZOBOT_MOVEMENT_STOP_MOTORS_TITLE=")stop motors(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SURFACE_COLOUR_TITLE=")surface color(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SYSTEM_MOVE_DISTANCE_UNIT=")mm(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SYSTEM_MOVE_SPEED_UNIT=")mm/s(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SYSTEM_ROTATE_ANGLE_TITLE=")angle(?=") ==> 
+(?<=OZOBOT_MOVEMENT_SYSTEM_ROTATE_ANGLE_UNIT=")deg(?=") ==> 
+(?<=OZOBOT_MOVEMENT_ZIGZAG_TITLE=")zigzag(?=") ==> Fahre Zick-Zack
+(?<=OZOBOT_NOTIFICATION_COPIED_LINK=")The link was copied to your clipboard.(?=") ==> 
+(?<=OZOBOT_NOTIFICATION_SAVED_PROGRAM=")The program was saved.(?=") ==> 
+(?<=OZOBOT_NOTIFICATION_SENT_PHONE_NUMBER=")Your MetaBot link has been sent!(?=") ==> 
+(?<=OZOBOT_OPEN_PROGRAM_OVERWRITE_WARNING=")You will lose unsaved work in <x id='START_SPAN'/><x id='OLD_SLOT'/><x id='END_SPAN'/>. Open <x id='START_SPAN'/><x id='NEW_SLOT'/><x id='END_SPAN'/> instead?(?=") ==> 
+(?<=OZOBOT_OPEN_PYTHON_EDITOR_BUTTON=")Open in Editor(?=") ==> 
+(?<=OZOBOT_PERSISTENT_LOAD_TITLE=")load persistent(?=") ==> 
+(?<=OZOBOT_PERSISTENT_READ_FILE_TITLE=")read byte from file(?=") ==> 
+(?<=OZOBOT_PERSISTENT_STORE_INTO_OPERATOR_REGISTER=")REGISTER(?=") ==> 
+(?<=OZOBOT_PERSISTENT_STORE_INTO_TITLE=")persistent store into(?=") ==> 
+(?<=OZOBOT_PERSISTENT_WRITE_FILE_OFFSET=")offset(?=") ==> 
+(?<=OZOBOT_PERSISTENT_WRITE_FILE_SEGMENT=")segment(?=") ==> 
+(?<=OZOBOT_PERSISTENT_WRITE_FILE_TITLE=")write byte to file(?=") ==> 
+(?<=OZOBOT_PERSISTENT_WRITE_FILE_VALUE=")value(?=") ==> 
+(?<=OZOBOT_PROMPT_DIALOG_NAME_SLOT_CHAR_LIMIT=")Max. %1 characters(?=") ==> 
+(?<=OZOBOT_PROMPT_ENTER_FILENAME=")Enter file name:(?=") ==> 
+(?<=OZOBOT_PROMPT_ENTER_SHARE_CODE=")Enter Share Code(?=") ==> 
+(?<=OZOBOT_PROMPT_RENAME_SLOT=")Rename Program(?=") ==> 
+(?<=OZOBOT_PROMPT_RESET_SLOT=")Are you sure you want to delete this program?(?=") ==> 
+(?<=OZOBOT_PROMPT_SAVE_SLOT=")Save program(?=") ==> 
+(?<=OZOBOT_ROBOT_BLOCK_UNCOMPATIBLE=")This block is not compatible with %1!(?=") ==> 
+(?<=OZOBOT_SAVE_PROGRAM_OVERWRITE_WARNING=")Are you sure you want to overwrite <x id='START_SPAN_1'/><x id='NEW_SLOT'/><x id='END_SPAN'/> with <x id='START_SPAN_2'/><x id='OLD_SLOT'/><x id='END_SPAN'/>?(?=") ==> 
+(?<=OZOBOT_SEND_PHONE_BUTTON=")Send(?=") ==> 
+(?<=OZOBOT_SHARE_CONTENT_BUTTON=")Copy(?=") ==> 
+(?<=OZOBOT_SHARE_CONTENT_CODE=")Share Code:(?=") ==> 
+(?<=OZOBOT_SHORT_MILLISECONDS_UNIT=")ms(?=") ==> 
+(?<=OZOBOT_SYNC_ANY_EVENT=")any event(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_BUTTON_PRESS=")button press(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_COMMAND_FINISHED=")action finished(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_COMMAND_RECOGNIZED=")color code(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_DEFAULT=")any other event(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_INTERSECTION=")intersection(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_LAST_INTERSECTION_DECISION=")intersection decision made(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_LINE_COLOR=")line color changed(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_LINE_FOLLOWING_SPEED_CHANGED=")line following speed changed(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_EXPIRED=")message expired(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_EXPIRED_LEFT_FRONT=")message expired on left front sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_EXPIRED_LEFT_REAR=")message expired on left rear sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_EXPIRED_RIGHT_FRONT=")message expired on right front sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_EXPIRED_RIGHT_REAR=")message expired on right rear sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_RECEIVED=")message received(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_RECEIVED_LEFT_FRONT=")message received on left front sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_RECEIVED_LEFT_REAR=")message received on left rear sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_RECEIVED_RIGHT_FRONT=")message received on right front sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_RECEIVED_RIGHT_REAR=")message received on right rear sensor(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_MESSAGE_RECEIVED_STORE_SENSOR=")store the sensor id to variable(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_NUM_LINES_FOUND=")number of lines changed(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_SURFACE_COLOR=")surface color changed(?=") ==> 
+(?<=OZOBOT_SYNC_CASE_TIMER=")timer tick(?=") ==> 
+(?<=OZOBOT_SYNC_CLEAR_EVENT_FLAGS_TITLE=")clear event flags(?=") ==> 
+(?<=OZOBOT_SYNC_WAIT_FOR_ANY_OF_THESE_EVENTS_AND_IGNORE=")and ignore past events(?=") ==> 
+(?<=OZOBOT_SYNC_WAIT_FOR_ANY_OF_THESE_EVENTS_TITLE=")wait for any of these events(?=") ==> 
+(?<=OZOBOT_SYNC_WAIT_FOR_ANY_OF_THESE_EVENTS_WARNING=")No events to wait for. This statement will block execution forever.(?=") ==> 
+(?<=OZOBOT_TABLET_CANCEL_CAPTION=")Cancel(?=") ==> 
+(?<=OZOBOT_TABLET_CLOSE_BUTTON_CAPTION=")Done(?=") ==> 
+(?<=OZOBOT_TABLET_EXIT_CAPTION=")Exit(?=") ==> 
+(?<=OZOBOT_TABLET_EXIT_DIALOG_TEXT=")Are you sure you want to exit?(?=") ==> 
+(?<=OZOBOT_TERMINATE_FAIL_TITLE=")fail(?=") ==> 
+(?<=OZOBOT_TERMINATE_PROGRAM_AND_LINE_FOLLOWING_TITLE=")terminate program and continue line following(?=") ==> 
+(?<=OZOBOT_TERMINATE_PROGRAM_AND_OPERATOR_CONTINUE_LINE_FOLLOWING=")continue line following(?=") ==> 
+(?<=OZOBOT_TERMINATE_PROGRAM_AND_OPERATOR_SWITCH_TO_IDLE=")switch to idle(?=") ==> 
+(?<=OZOBOT_TERMINATE_PROGRAM_AND_OPERATOR_TURN_OFF=")turn Ozobot off(?=") ==> 
+(?<=OZOBOT_TERMINATE_PROGRAM_AND_SWITCH_TO_IDLE_TITLE=")terminate program and switch to idle(?=") ==> 
+(?<=OZOBOT_TERMINATE_PROGRAM_AND_TITLE=")terminate program and(?=") ==> 
+(?<=OZOBOT_TERMINATE_PROGRAM_AND_TURN_OFF_TITLE=")terminate program and turn Ozobot off(?=") ==> 
+(?<=OZOBOT_TIMING_CHECK_TIMER_TICK_TITLE=")check timer tick event(?=") ==> 
+(?<=OZOBOT_TIMING_DELAY_SIMPLE_UNIT_SECONDS=")second\(s\)(?=") ==> Sekunde(n)
+(?<=OZOBOT_TIMING_GET_TIMER_TITLE=")get timer value (s)(?=") ==> 
+(?<=OZOBOT_TIMING_SET_TIMER_TITLE=")set timer value(?=") ==> 
+(?<=OZOBOT_TIMING_SIMPLE_WAIT_DROPDOWN_TITLE=")wait for event(?=") ==> 
+(?<=OZOBOT_TIMING_SIMPLE_WAIT_FOR_BUTTON_PRESS_TITLE=")wait for button press(?=") ==> 
+(?<=OZOBOT_TIMING_SYSTEM_DELAY_TITLE=")wait(?=") ==> Warte
+(?<=OZOBOT_TIMING_SYSTEM_DELAY_UNIT_MS=")\u00d7 10 ms(?=") ==> 
+(?<=OZOBOT_TIMING_THREAD_YIELD_TITLE=")thread yield(?=") ==> 
+(?<=OZOBOT_UNNAMED_PROGRAM_NAME=")Unnamed Program(?=") ==> 
+(?<=OZOBOT_WORKSPACE_BUTTON_TOOLTIP_COPY=")Copy(?=") ==> 
+(?<=OZOBOT_WORKSPACE_BUTTON_TOOLTIP_ERASE=")Erase all(?=") ==> 
+(?<=OZOBOT_WORKSPACE_BUTTON_TOOLTIP_METABOT=")MetaBot(?=") ==> 
+(?<=OZOBOT_XML_ARRAYS_TITLE=")Arrays(?=") ==> 
+(?<=OZOBOT_XML_BUTTON_TITLE=")Button(?=") ==> 
+(?<=OZOBOT_XML_COLOR_CODES_TITLE=")Color Codes(?=") ==> 
+(?<=OZOBOT_XML_FUNCTIONS_TITLE=")Functions(?=") ==> 
+(?<=OZOBOT_XML_LIGHT_EFFECTS_TITLE=")Light Effects(?=") ==> 
+(?<=OZOBOT_XML_LINE_NAVIGATION_TITLE=")Line Navigation(?=") ==> 
+(?<=OZOBOT_XML_LIST_TITLE=")List(?=") ==> 
+(?<=OZOBOT_XML_LOGIC_TITLE=")Logic(?=") ==> 
+(?<=OZOBOT_XML_LOOPS_TITLE=")Loops(?=") ==> 
+(?<=OZOBOT_XML_MATH_TITLE=")Math(?=") ==> 
+(?<=OZOBOT_XML_MOVEMENT_TITLE=")Movement(?=") ==> 
+(?<=OZOBOT_XML_PERSISTENT_TITLE=")Persistent(?=") ==> 
+(?<=OZOBOT_XML_SENSORS_TITLE=")Sensors(?=") ==> 
+(?<=OZOBOT_XML_SOUNDS_TITLE=")Sounds(?=") ==> 
+(?<=OZOBOT_XML_SWARM_TITLE=")IR Comm(?=") ==> 
+(?<=OZOBOT_XML_SYNCHRONIZATION_TITLE=")Synchronization(?=") ==> 
+(?<=OZOBOT_XML_TERMINATE_TITLE=")Terminate(?=") ==> 
+(?<=OZOBOT_XML_TIMING_TITLE=")Timing(?=") ==> 
+(?<=OZOBOT_XML_VARIABLES_TITLE=")Variables(?=") ==> 
+(?<=OZOBOT_XML_WAIT_TITLE=")Wait(?=") ==> 
+(?<=PREVIEW=")Preview(?=") ==> 
+(?<=PROCEDURES_ALLOW_STATEMENTS=")Aussagen erlauben(?=") ==> 
+(?<=PROCEDURES_BEFORE_PARAMS=")mit:(?=") ==> 
+(?<=PROCEDURES_CALLNORETURN_HELPURL=")https://de.wikipedia.org/wiki/Prozedur_%28Programmierung%29(?=") ==> 
+(?<=PROCEDURES_CALLNORETURN_TOOLTIP=")Rufe einen Funktionsblock ohne R\u00fcckgabewert auf.(?=") ==> 
+(?<=PROCEDURES_CALLRETURN_HELPURL=")https://de.wikipedia.org/wiki/Prozedur_%28Programmierung%29(?=") ==> 
+(?<=PROCEDURES_CALLRETURN_TOOLTIP=")Rufe einen Funktionsblock mit R\u00fcckgabewert auf.(?=") ==> 
+(?<=PROCEDURES_CALL_BEFORE_PARAMS=")mit:(?=") ==> 
+(?<=PROCEDURES_CREATE_DO=")Erzeuge "Aufruf %1"(?=") ==> 
+(?<=PROCEDURES_DEFNORETURN_COMMENT=")Beschreibe diese Funktion \u2026(?=") ==> 
+(?<=PROCEDURES_DEFNORETURN_DO=")(?=") ==> 
+(?<=PROCEDURES_DEFNORETURN_HELPURL=")https://de.wikipedia.org/wiki/Prozedur_%28Programmierung%29(?=") ==> 
+(?<=PROCEDURES_DEFNORETURN_PROCEDURE=")etwas tun(?=") ==> 
+(?<=PROCEDURES_DEFNORETURN_TITLE=")to(?=") ==> 
+(?<=PROCEDURES_DEFNORETURN_TOOLTIP=")Ein Funktionsblock ohne R\u00fcckgabewert.(?=") ==> 
+(?<=PROCEDURES_DEFRETURN_HELPURL=")https://de.wikipedia.org/wiki/Prozedur_%28Programmierung%29(?=") ==> 
+(?<=PROCEDURES_DEFRETURN_RETURN=")gib zur\u00fcck(?=") ==> 
+(?<=PROCEDURES_DEFRETURN_TOOLTIP=")Ein Funktionsblock mit R\u00fcckgabewert.(?=") ==> 
+(?<=PROCEDURES_DEF_DUPLICATE_WARNING=")Warnung: dieser Funktionsblock hat zwei gleich benannte Parameter.(?=") ==> 
+(?<=PROCEDURES_HIGHLIGHT_DEF=")Markiere Funktionsblock(?=") ==> 
+(?<=PROCEDURES_IFRETURN_HELPURL=")http://c2.com/cgi/wiki?GuardClause(?=") ==> 
+(?<=PROCEDURES_IFRETURN_TOOLTIP=")Gibt den zweiten Wert zur\u00fcck und verl\u00e4sst die Funktion, falls der erste Wert wahr ist.(?=") ==> 
+(?<=PROCEDURES_IFRETURN_WARNING=")Warnung: Dieser Block darf nur innerhalb eines Funktionsblocks genutzt werden.(?=") ==> 
+(?<=PROCEDURES_MUTATORARG_TITLE=")Variable:(?=") ==> 
+(?<=PROCEDURES_MUTATORARG_TOOLTIP=")Eine Eingabe zur Funktion hinzuf\u00fcgen.(?=") ==> 
+(?<=PROCEDURES_MUTATORCONTAINER_TITLE=")Parameter(?=") ==> 
+(?<=PROCEDURES_MUTATORCONTAINER_TOOLTIP=")Die Eingaben zu dieser Funktion hinzuf\u00fcgen, entfernen oder neu anordnen.(?=") ==> 
+(?<=REDO=")Wiederholen(?=") ==> 
+(?<=REMOVE_COMMENT=")Kommentar entfernen(?=") ==> 
+(?<=RENAME_VARIABLE=")Variable umbenennen \u2026(?=") ==> 
+(?<=RENAME_VARIABLE_TITLE=")Alle "%1" Variablen umbenennen in:(?=") ==> 
+(?<=TEXT_APPEND_HELPURL=")https://github.com/google/blockly/wiki/Text#text-modification(?=") ==> 
+(?<=TEXT_APPEND_TITLE=")to %1 append text %2(?=") ==> 
+(?<=TEXT_APPEND_TOOLTIP=")Text an die Variable "%1" anh\u00e4ngen.(?=") ==> 
+(?<=TEXT_CHANGECASE_HELPURL=")https://github.com/google/blockly/wiki/Text#adjusting-text-case(?=") ==> 
+(?<=TEXT_CHANGECASE_OPERATOR_LOWERCASE=")wandel um in kleinbuchstaben(?=") ==> 
+(?<=TEXT_CHANGECASE_OPERATOR_TITLECASE=")wandel um in Substantive(?=") ==> 
+(?<=TEXT_CHANGECASE_OPERATOR_UPPERCASE=")wandel um in GROSSBUCHSTABEN(?=") ==> 
+(?<=TEXT_CHANGECASE_TOOLTIP=")Wandelt Schreibweise von Texten um, in Gro\u00dfbuchstaben, Kleinbuchstaben oder den ersten Buchstaben jedes Wortes gro\u00df und die anderen klein.(?=") ==> 
+(?<=TEXT_CHARAT_FIRST=")nehme ersten Buchstaben(?=") ==> 
+(?<=TEXT_CHARAT_FROM_END=")nehme #ten Buchstaben von hinten(?=") ==> 
+(?<=TEXT_CHARAT_FROM_START=")nehme #ten Buchstaben(?=") ==> 
+(?<=TEXT_CHARAT_HELPURL=")http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm(?=") ==> 
+(?<=TEXT_CHARAT_LAST=")nehme letzten Buchstaben(?=") ==> 
+(?<=TEXT_CHARAT_RANDOM=")nehme zuf\u00e4lligen Buchstaben(?=") ==> 
+(?<=TEXT_CHARAT_TAIL=")(?=") ==> 
+(?<=TEXT_CHARAT_TITLE=")in text %1 %2(?=") ==> 
+(?<=TEXT_CHARAT_TOOLTIP=")Extrahiert einen Buchstaben von einer bestimmten Position.(?=") ==> 
+(?<=TEXT_COUNT_HELPURL=")https://github.com/google/blockly/wiki/Text#counting-substrings(?=") ==> 
+(?<=TEXT_COUNT_MESSAGE0=")count %1 in %2(?=") ==> 
+(?<=TEXT_COUNT_TOOLTIP=")Count how many times some text occurs within some other text.(?=") ==> 
+(?<=TEXT_CREATE_JOIN_ITEM_TOOLTIP=")Ein Element zum Text hinzuf\u00fcgen.(?=") ==> 
+(?<=TEXT_CREATE_JOIN_TITLE_JOIN=")verbinden(?=") ==> 
+(?<=TEXT_CREATE_JOIN_TOOLTIP=")Hinzuf\u00fcgen, entfernen und sortieren von Elementen.(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_END_FROM_END=")bis zum #ten Buchstaben von hinten(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_END_FROM_START=")bis zum #ten Buchstaben(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_END_LAST=")bis zum letzten Buchstaben(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_HELPURL=")http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_INPUT_IN_TEXT=")im Text(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_START_FIRST=")nehme Teil ab erstem Buchstaben(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_START_FROM_END=")nehme Teil ab #tem Buchstaben von hinten(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_START_FROM_START=")nehme Teil ab #tem Buchstaben(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_TAIL=")(?=") ==> 
+(?<=TEXT_GET_SUBSTRING_TOOLTIP=")Gibt den angegebenen Textabschnitt zur\u00fcck.(?=") ==> 
+(?<=TEXT_INDEXOF_HELPURL=")http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm(?=") ==> 
+(?<=TEXT_INDEXOF_OPERATOR_FIRST=")suche erstes Auftreten des Begriffs(?=") ==> 
+(?<=TEXT_INDEXOF_OPERATOR_LAST=")suche letztes Auftreten des Begriffs(?=") ==> 
+(?<=TEXT_INDEXOF_TITLE=")in text %1 %2 %3(?=") ==> 
+(?<=TEXT_INDEXOF_TOOLTIP=")Findet das erste / letzte Auftreten eines Suchbegriffs in einem Text.  Gibt die Position des Begriffs zur\u00fcck oder %1 falls der Suchbegriff nicht gefunden wurde.(?=") ==> 
+(?<=TEXT_ISEMPTY_HELPURL=")https://github.com/google/blockly/wiki/Text#checking-for-empty-text(?=") ==> 
+(?<=TEXT_ISEMPTY_TITLE=")%1 ist leer(?=") ==> 
+(?<=TEXT_ISEMPTY_TOOLTIP=")Ist wahr, falls der Text keine Zeichen enth\u00e4lt ist.(?=") ==> 
+(?<=TEXT_JOIN_HELPURL=")https://github.com/google/blockly/wiki/Text#text-creation(?=") ==> 
+(?<=TEXT_JOIN_TITLE_CREATEWITH=")erstelle Text aus(?=") ==> 
+(?<=TEXT_JOIN_TOOLTIP=")Erstellt einen Text durch das Verbinden von mehreren Textelementen.(?=") ==> 
+(?<=TEXT_LENGTH_HELPURL=")https://github.com/google/blockly/wiki/Text#text-modification(?=") ==> 
+(?<=TEXT_LENGTH_TITLE=")L\u00e4nge von %1(?=") ==> 
+(?<=TEXT_LENGTH_TOOLTIP=")Die Anzahl von Zeichen in einem Text (inkl. Leerzeichen).(?=") ==> 
+(?<=TEXT_PRINT_HELPURL=")https://github.com/google/blockly/wiki/Text#printing-text(?=") ==> 
+(?<=TEXT_PRINT_TITLE=")gib aus %1(?=") ==> 
+(?<=TEXT_PRINT_TOOLTIP=")Gibt den Text aus.(?=") ==> 
+(?<=TEXT_PROMPT_HELPURL=")https://github.com/google/blockly/wiki/Text#getting-input-from-the-user(?=") ==> 
+(?<=TEXT_PROMPT_TOOLTIP_NUMBER=")Fragt den Benutzer nach einer Zahl.(?=") ==> 
+(?<=TEXT_PROMPT_TOOLTIP_TEXT=")Fragt den Benutzer nach einem Text.(?=") ==> 
+(?<=TEXT_PROMPT_TYPE_NUMBER=")frage nach Zahl mit Hinweis(?=") ==> 
+(?<=TEXT_PROMPT_TYPE_TEXT=")frage nach Text mit Hinweis(?=") ==> 
+(?<=TEXT_REPLACE_HELPURL=")https://github.com/google/blockly/wiki/Text#replacing-substrings(?=") ==> 
+(?<=TEXT_REPLACE_MESSAGE0=")replace %1 with %2 in %3(?=") ==> 
+(?<=TEXT_REPLACE_TOOLTIP=")Replace all occurances of some text within some other text.(?=") ==> 
+(?<=TEXT_REVERSE_HELPURL=")https://github.com/google/blockly/wiki/Text#reversing-text(?=") ==> 
+(?<=TEXT_REVERSE_MESSAGE0=")reverse %1(?=") ==> 
+(?<=TEXT_REVERSE_TOOLTIP=")Reverses the order of the characters in the text.(?=") ==> 
+(?<=TEXT_TEXT_HELPURL=")https://de.wikipedia.org/wiki/Zeichenkette(?=") ==> 
+(?<=TEXT_TEXT_TOOLTIP=")Ein Buchstabe, Text oder Satz.(?=") ==> 
+(?<=TEXT_TRIM_HELPURL=")https://github.com/google/blockly/wiki/Text#trimming-removing-spaces(?=") ==> 
+(?<=TEXT_TRIM_OPERATOR_BOTH=")entferne Leerzeichen vom Anfang und vom Ende (links und rechts)(?=") ==> 
+(?<=TEXT_TRIM_OPERATOR_LEFT=")entferne Leerzeichen vom Anfang (links)(?=") ==> 
+(?<=TEXT_TRIM_OPERATOR_RIGHT=")entferne Leerzeichen vom Ende (rechts)(?=") ==> 
+(?<=TEXT_TRIM_TOOLTIP=")Entfernt Leerzeichen vom Anfang und / oder Ende eines Textes.(?=") ==> 
+(?<=TODAY=")Heute(?=") ==> 
+(?<=UNDO=")R\u00fcckg\u00e4ngig(?=") ==> 
+(?<=VARIABLES_DEFAULT_NAME=")etwas(?=") ==> 
+(?<=VARIABLES_GET_CREATE_SET=")Erzeuge "Schreibe %1"(?=") ==> 
+(?<=VARIABLES_GET_HELPURL=")https://de.wikipedia.org/wiki/Variable_%28Programmierung%29(?=") ==> 
+(?<=VARIABLES_GET_TOOLTIP=")Gibt den Wert der Variable zur\u00fcck.(?=") ==> 
+(?<=VARIABLES_MSG_DETECTED_DEFAULT_NAME=")MsgDetectedSensorID(?=") ==> 
+(?<=VARIABLES_MSG_EXPIRED_DEFAULT_NAME=")MsgExpiredSensorID(?=") ==> 
+(?<=VARIABLES_SET=")setze %1 auf %2(?=") ==> 
+(?<=VARIABLES_SET_CREATE_GET=")Erzeuge "Lese %1"(?=") ==> 
+(?<=VARIABLES_SET_HELPURL=")https://de.wikipedia.org/wiki/Variable_%28Programmierung%29(?=") ==> 
+(?<=VARIABLES_SET_TOOLTIP=")Setzt den Wert einer Variable.(?=") ==> 
+(?<=VARIABLE_ALREADY_EXISTS=")Eine Variable namens \u201e%1\u201c ist bereits vorhanden.(?=") ==> 
+(?<=VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE=")A variable named '%1' already exists for another type: '%2'.(?=") ==> 
+(?<=WORKSPACE_COMMENT_DEFAULT_TEXT=")Say something...(?=") ==> 
+(?<=narrowDisplayScreenAlert=")<x id='START_STRONG'/>Head Up!<x id='END_STRONG'/><x id='START_BREAK'/>OzoBlockly works best with your browser window maximized on one of these recommended devices:<x id='START_UNORDERED_LIST'/><x id='START_ITEM'/>Computers (including Chromebooks)<x id='END_ITEM'/><x id='START_ITEM'/>iPads (except iPad Mini)<x id='END_ITEM'/><x id='START_ITEM'/>Android tablets<x id='END_ITEM'/><x id='END_UNORDERED_LIST'/><x id='START_BREAK'/>If you're using a smartphone or mini tablet, programming with OzoBlockly may be a challenge!(?=") ==> 
+(?<=narrowDisplayScreenAlertConfirmation=")Continue to OzoBlockly anyways!(?=") ==> 
+(?<=narrowDisplayScreenAlertConfirmationPortrait=")Continue with portrait mode(?=") ==> 
+(?<=narrowDisplayScreenAlertPortrait=")<x id='START_STRONG'/>Rotate your device horizontally<x id='END_STRONG'/><x id='START_BREAK'/> for a better OzoBlockly experience.(?=") ==> 
